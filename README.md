@@ -41,3 +41,8 @@ Après analyse de différents services similaires, comme [TCAT](tcat.fr), [Ile d
 2. Il choisit une ligne de bus et prends connaissance des perturbations sur la ligne
 3. Il revient à la page "perturbations" et consulte les différentes lignes de bus disponibles
 4. Il choisit une autre ligne de bus et prends connaissance des perturbations sur la ligne.
+
+## Éco-index
+### Scénario 2 
+<img width="1582" height="975" alt="Capture d’écran 2026-09-28 à 17 24 45" src="https://github.com/user-attachments/assets/2270df15-ca8f-48bc-9801-a438fd2c783c" />
+
