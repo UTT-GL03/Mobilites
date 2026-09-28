@@ -28,3 +28,7 @@ Nous faisons l'hypothèsse qu'un utilisateur va consulter les horaires de bus pl
 4. Il choisit une autre ligne de bus et prend connaissance des horaires de passage cette dernière.
 
 ### Scénario 2 : "Être informé des perturbations du traffic"
+1. L'utilisateur se rend sur la page "perturbations" de l'application grâce à un bouton (dons sans passer par un moteur de recherche). Si nécessaire, il donne son consentement. Puis il consulte les différentes lignes de bus disponibles.
+2. Il choisit une ligne de bus et prends connaissance des perturbations sur la ligne
+3. Il revient à la page "perturbations" et consulte les différentes lignes de bus disponibles
+4. Il choisit une autre ligne de bus et prends connaissance des perturbations sur la ligne.
