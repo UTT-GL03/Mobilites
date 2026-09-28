@@ -16,3 +16,7 @@ L'application est gratuite, gérée par un opérateur public, et jamais obligato
 L'application peut remplacer les tickets papier, les fiches imprimées et les appels, à condition que ces supports diminuent réellement. L'enjeu principal reste de remplacer la voiture par le bus ou le vélo. En revanche, l'application substitue des services déjà présents dans l'agglomération en dupliquant certaines fonctionnalités notamment celles de Karos ou encore Marcel.
 
 Plus de facilité peut entraîner plus de déplacements, ou des trajets à pied remplacés par le bus. Le temps réel pousse aussi à consulter l'appli souvent. Ces effets restent limités face au gain d'un report depuis la voiture.
+
+## Scénarios d'usage et impacts
+
+Nous faisons l'hypothèsse qu'un utilisateur va consulter les horaires de bus plusieurs fois dans la journée (par exemple pour se rendre au travail, aller faire du sport, voir des amis etc.). Pour cette raison, nous prendrons en compte ans notre scénario, la consultation consécutive des horaires deux lignes de bus, ainf de pouvoir quantifier les effets positifs du cache.
