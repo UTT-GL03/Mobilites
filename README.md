@@ -1,7 +1,7 @@
 # Réduction de l'impact écologique du service numérique de l'opérateur de mobilités troyen
 ## Choix du sujet
 
-Avec l'essor d'internet et des téléphone portable, nous utilisons quotidiennement des site internets et applications pour consulter les horaires des différents transports en communs ou encore nous repérer. Comptes tenus de nos usages, il nous a donc paru pertinent de choisir ce projet là pour essayer de réduire son impact écologique. Ainsi tout au long de ce semestre, nous analyserons les enjeux liés aux applications de transports en communs et de calcul d'itinéraire afin de proposer une solution plus respectueuse de l'environnement tout en conservant son coeur d'action.
+Avec l'essor d'internet et des téléphone portable, nous utilisons quotidiennement des sites internet et applications pour consulter les horaires des différents transports en communs ou encore nous repérer. Compte tenu de nos usages, il nous a donc paru pertinent de choisir ce projet là pour essayer de réduire son impact écologique. Ainsi tout au long de ce semestre, nous analyserons les enjeux liés aux applications de transports en communs et de calcul d'itinéraire afin de proposer une solution plus respectueuse de l'environnement tout en conservant son coeur d'action.
 
 ## Utilité sociale
 
@@ -25,15 +25,16 @@ Plus de facilité peut entraîner plus de déplacements, ou des trajets à pied 
 
 ## Scénarios d'usage et impacts
 
-Nous faisons l'hypothèsse qu'un utilisateur va consulter les horaires de bus plusieurs fois dans la journée (par exemple pour se rendre au travail, aller faire du sport, voir des amis etc.). Pour cette raison, nous prendrons en compte dans notre scénario, la consultation consécutive des horaires deux lignes de bus, ainf de pouvoir quantifier les effets positifs du cache.
+Nous faisons l'hypothèse qu'un utilisateur va consulter les horaires de bus plusieurs fois dans la journée (par exemple pour se rendre au travail, aller faire du sport, voir des amis etc.). Pour cette raison, nous prendrons en compte dans notre scénario, la consultation consécutive des horaires de deux lignes de bus, afin de pouvoir quantifier les effets positifs du cache.
 
 Après analyse de différents services similaires, comme [TCAT](tcat.fr), [Ile de france mobilités](https://www.iledefrance-mobilites.fr), [CityMapper](https://www.iledefrance-mobilites.fr) ou encore [Google Maps](https://www.google.fr/maps), nous sommes arrivés aux scénarios suivants.
 
 ### Scénario 1: "Consulter les horaires de passage d'une ligne de bus"
-1. L'utilisateur se rend sur la page "horaires de bus" de l'application grâce à un bouton (donc sans passer par un moteur de recherche). Si nécessaire, il donne son consentement. Puis il consulte les différentes lignes de bus disponibles
+1. L'utilisateur se rend sur la page "horaires de bus" de l'application grâce à un bouton (donc sans passer par un moteur de recherche). Si nécessaire, il donne son consentement. Puis il consulte les différentes lignes de bus disponibles.
 2. Il choisit une ligne de bus et prend connaissance des horaires de passage de cette dernière.
-3. Il revient à la page "horaires de bus" et consulte les différentes lignes de bus disponible.
+3. Il revient à la page "horaires et plans de bus" et consulte les différentes lignes de bus disponible.
 4. Il choisit une autre ligne de bus et prend connaissance des horaires de passage cette dernière.
+
 
 ### Scénario 2 : "Être informé des perturbations du traffic"
 1. L'utilisateur se rend sur la page "perturbations" de l'application grâce à un bouton (donc sans passer par un moteur de recherche). Si nécessaire, il donne son consentement. Puis il consulte les différentes lignes de bus disponibles.
