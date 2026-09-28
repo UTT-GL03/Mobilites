@@ -13,7 +13,11 @@ L'application est gratuite, gérée par un opérateur public, et jamais obligato
 
 ## Effets de la numérisation
 
-Les fiches imprimées constituent la principale solution pour la consultation des horaires de transports en communs. La fabrication du papier qui constitue ces fiches représente 5g de CO2 par feuille A4 de 80g/m² et l'impression sur une de ces feuilles est estimée à 2g de CO2. Cet impact n'est qu'une estimation, pour la fabrication du papier, ces chiffres varient en fonction du grammage du papier, de si la feuille est recyclée ou non, de la  distance à laquelle il est produit, de l'impact écologique de l'électricité utilisée. Quand à l'impression, ces chiffres peuvent varier en fonction de l'encre utilisée et du procédé d'impression utilisé. L'application devra ainsi battre cet impact écologique en sachant qu'un utilisateur peut utiliser plusieurs feuilles et que les feuilles peuvent êtres utilisées par plusieurs personnes. (source: [Docside](https://docside.fr/empreinte-carbone-de-limpression-papier-comprendre-pour-agir/ ))
+Les fiches imprimées constituent la principale solution pour la consultation des horaires de transports en communs. La fabrication du papier qui constitue ces fiches représente 5g de CO2 par feuille A4 de 80g/m² et l'impression sur une de ces feuilles est estimée à 2g de CO2. 
+Cet impact n'est qu'une estimation, pour la fabrication du papier, ces chiffres varient en fonction du grammage du papier, de si la feuille est recyclée ou non, de la  distance à laquelle il est produit, de l'impact écologique de l'électricité utilisée.
+Il est aussi important de garder en tête que les arbres ne sont presque plus abattus uniquement pour produire du papier, la pâte à papier est majoritairement faite de déchets forestiers sans aucune autre utilité. De plus, plus de 60% de l'énergie thermique utilisée pour faire du papier vient de la biomasse ce qui mitige d'autant plus l'impact environnemental de la production de papier.
+Quand à l'impression, ces chiffres peuvent varier en fonction de l'encre utilisée et du procédé d'impression utilisé. 
+L'application devra ainsi battre cet impact écologique en sachant qu'un utilisateur peut utiliser plusieurs feuilles et que les feuilles peuvent êtres utilisées par plusieurs personnes. (source: [Docside](https://docside.fr/empreinte-carbone-de-limpression-papier-comprendre-pour-agir/ ))
 
 L'application peut remplacer les tickets papier, les fiches imprimées et les appels, à condition que ces supports diminuent réellement. L'enjeu principal reste de remplacer la voiture par le bus ou le vélo. En revanche, l'application substitue des services déjà présents dans l'agglomération en dupliquant certaines fonctionnalités notamment celles de Karos ou encore Marcel.
 
@@ -21,7 +25,7 @@ Plus de facilité peut entraîner plus de déplacements, ou des trajets à pied 
 
 ## Scénarios d'usage et impacts
 
-Nous faisons l'hypothèsse qu'un utilisateur va consulter les horaires de bus plusieurs fois dans la journée (par exemple pour se rendre au travail, aller faire du sport, voir des amis etc.). Pour cette raison, nous prendrons en compte ans notre scénario, la consultation consécutive des horaires deux lignes de bus, ainf de pouvoir quantifier les effets positifs du cache.
+Nous faisons l'hypothèsse qu'un utilisateur va consulter les horaires de bus plusieurs fois dans la journée (par exemple pour se rendre au travail, aller faire du sport, voir des amis etc.). Pour cette raison, nous prendrons en compte dans notre scénario, la consultation consécutive des horaires deux lignes de bus, ainf de pouvoir quantifier les effets positifs du cache.
 
 ### Scénario 1: "Consulter les horaires de passage d'une ligne de bus"
 1. L'utilisateur se rend sur la page "horaires de bus" de l'application grâce à un bouton (donc sans passer par un moteur de recherche). Si nécessaire, il donne son consentement. Puis il consulte les différentes lignes de bus disponibles
@@ -30,7 +34,7 @@ Nous faisons l'hypothèsse qu'un utilisateur va consulter les horaires de bus pl
 4. Il choisit une autre ligne de bus et prend connaissance des horaires de passage cette dernière.
 
 ### Scénario 2 : "Être informé des perturbations du traffic"
-1. L'utilisateur se rend sur la page "perturbations" de l'application grâce à un bouton (dons sans passer par un moteur de recherche). Si nécessaire, il donne son consentement. Puis il consulte les différentes lignes de bus disponibles.
+1. L'utilisateur se rend sur la page "perturbations" de l'application grâce à un bouton (donc sans passer par un moteur de recherche). Si nécessaire, il donne son consentement. Puis il consulte les différentes lignes de bus disponibles.
 2. Il choisit une ligne de bus et prends connaissance des perturbations sur la ligne
 3. Il revient à la page "perturbations" et consulte les différentes lignes de bus disponibles
 4. Il choisit une autre ligne de bus et prends connaissance des perturbations sur la ligne.
