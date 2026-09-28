@@ -1,4 +1,7 @@
 # Réduction de l'impact écologique du service numérique de l'opérateur de mobilités troyen
+## Choix du sujet
+
+Avec l'essor d'internet et des téléphone portable, nous utilisons quotidiennement des site internets et applications pour consulter les horaires des différents transports en communs ou encore nous repérer. Comptes tenus de nos usages, il nous a donc paru pertinent de choisir ce projet là pour essayer de réduire son impact écologique. Ainsi tout au long de ce semestre, nous analyserons les enjeux liés aux applications de transports en communs et de calcul d'itinéraire afin de proposer une solution plus respectueuse de l'environnement tout en conservant son coeur d'action.
 
 ## Utilité sociale
 
