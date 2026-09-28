@@ -21,8 +21,10 @@ Plus de facilité peut entraîner plus de déplacements, ou des trajets à pied 
 
 Nous faisons l'hypothèsse qu'un utilisateur va consulter les horaires de bus plusieurs fois dans la journée (par exemple pour se rendre au travail, aller faire du sport, voir des amis etc.). Pour cette raison, nous prendrons en compte ans notre scénario, la consultation consécutive des horaires deux lignes de bus, ainf de pouvoir quantifier les effets positifs du cache.
 
-### Scénario 1: "consulter les horaires d'une ligne de bus"
+### Scénario 1: "Consulter les horaires de passage d'une ligne de bus"
 1. L'utilisateur se rend sur la page "horaires de bus" de l'application grâce à un bouton (donc sans passer par un moteur de recherche). Si nécessaire, il donne son consentement. Puis il consulte les différentes lignes de bus disponibles
 2. Il choisit une ligne de bus et prend connaissance des horaires de passage de cette dernière.
 3. Il revient à la page "horaires de bus" et consulte les différentes lignes de bus disponible.
 4. Il choisit une autre ligne de bus et prend connaissance des horaires de passage cette dernière.
+
+### Scénario 2 : "Être informé des perturbations du traffic"
