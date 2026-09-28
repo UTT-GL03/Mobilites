@@ -42,6 +42,17 @@ Après analyse de différents services similaires, comme [TCAT](tcat.fr), [Ile d
 3. Il revient à la page "perturbations" et consulte les différentes lignes de bus disponibles
 4. Il choisit une autre ligne de bus et prends connaissance des perturbations sur la ligne.
 
+## Impact de l'exécution des scénarios auprès de différents services concurrents
+
+L'EcoIndex d'une page (de A à G) est calculé (sources : [EcoIndex](https://www.ecoindex.fr/comment-ca-marche/), [Octo](https://blog.octo.com/sous-le-capot-de-la-mesure-ecoindex), [GreenIT](https://github.com/cnumr/GreenIT-Analysis/blob/acc0334c712ba68939466c42af1514b5f448e19f/script/ecoIndex.js#L19-L44)) en fonction du positionnement de cette page parmi les pages mondiales concernant :
+
+- le nombre de requêtes lancées,
+- le poids des téléchargements,
+- le nombre d'éléments du document.
+
+Nous avons choisi de comparer l'impact des scénarios sur les services d'opérateurs de mobilités : TCAT, Île-de-France Mobilités et CityMapper à titre de comparaison.
+
+
 ## Éco-index
 ### Scénario 2 
 <img width="1582" height="975" alt="Capture d’écran 2026-09-28 à 17 24 45" src="https://github.com/user-attachments/assets/2270df15-ca8f-48bc-9801-a438fd2c783c" />
