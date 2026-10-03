@@ -16,5 +16,11 @@ Consommation d'eau moyenne rapportée à 1 000 utilisateurs (en litres) : 35.10 
 ### Résultat du Scénario 1
 
 ### Résultat du scénario 2 pour la TCAT
+- Objectif du parcours : not required
+- Parcours cible : not required
+| Page | Grade | Ecoindex | Eau (cl) | GES (gCO2e) | Nb de requêtes | Taille de la course (Ko) | Taille du DOM |
+| ---- | ----- | -------- | -------- | ----------- | -------------- | ------------------------ | ------------- |
+| <https://tcat.fr/> | F | 12/100 | 4.15 | 2.76 | 129 | 14763.798 | 3629 |
+| <https://tcat.fr/se-deplacer/le-reseau-tcat/infos-trafic/> | D | 41/100 | 3.26 | 2.17 | 16 | 1286.810 | 2848 |
 
 ## L'écoconception
