@@ -51,3 +51,10 @@ L'EcoIndex d'une page (de A à G) est calculé (sources : [EcoIndex](https://www
 - le nombre d'éléments du document.
 
 Nous avons choisi de comparer l'impact des scénarios sur les services d'opérateurs de mobilités : TCAT, Île-de-France Mobilités et CityMapper à titre de comparaison.
+
+| Service                             | Score (sur 100) | Classe | Détail des mesures                  |
+| ----------------------------------- | --------------- | ------ | ----------------------------------- |
+| TCAT                                | 42              | D      | […](benchmark/TCAT.md)              |
+| Île-de-France Mobilités             | ...             | ...    | […](benchmark/IDFM.md)              |
+| CityMapper (à titre de comparaison) | ...             | ...    | […](benchmark/CityMapper.md)        |
+
