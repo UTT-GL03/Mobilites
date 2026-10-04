@@ -3,10 +3,9 @@
 Mesure effectuée le samedi 3 octobre 2026
 
 ## Niveau d’écoconception du site web
-Note Ecoindex : À CHANGER. 
-
-Consommation d'eau moyenne rapportée à 1 000 utilisateurs (en litres) : 39.87 litres, (soit 4 packs d'eau minérale). 
-Émission de Gaz à Effet de Serre (GES) moyenne rapportée à 1 000 utilisateurs (kilos CO2e) : 2.66 kilos CO2e (soit un trajet de 12 kms en voiture à énergie thermique).  
+- Note Ecoindex : 42/100
+- Consommation d'eau moyenne rapportée à 1 000 utilisateurs (en litres) : 32.26 litres, (soit 4 packs d'eau minérale).
+- Émission de Gaz à Effet de Serre (GES) moyenne rapportée à 1 000 utilisateurs (kilos CO2e) : 2.15 kilos CO2e (soit un trajet de 10 kms en voiture à énergie thermique).
 
 ## Méthode d'évaluation
 Comme toute production numérique, ce site web a un impact environnemental que nous vous présentons sur cette page à l’aide d’indicateurs standardisés.
