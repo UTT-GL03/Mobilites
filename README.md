@@ -58,7 +58,7 @@ Nous avons choisi de comparer l'impact des scénarios sur les services d'opérat
 | Île-de-France Mobilités             | 45              | D      | […](Benchmark/idfm.md)              |
 | CityMapper (à titre de comparaison) | 31              | E      | […](Benchmark/citymapper.md)        |
 
-Les mesures de l'impact moyen de ces services (cf. Tab.1) révèlent des classes EcoIndex médiocres (D) pour les deux opérateurs publics, et faibles (E) pour CityMapper.
+Les mesures de l'impact moyen de ces services (cf. Tab.1) révèlent des classes EcoIndex moyennes (D) pour les deux opérateurs publics, et faibles (E) pour CityMapper.  
 
 Dans le détail, les trois services sont pénalisés pour des raisons différentes :
 
