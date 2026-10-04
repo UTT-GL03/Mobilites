@@ -3,9 +3,9 @@
 Mesure effectuée le dimanche 4 octobre 2026
 
 ## Niveau d’écoconception du site web
-- Note Ecoindex : 
-- Consommation d'eau moyenne rapportée à 1 000 utilisateurs (en litres) :  
-- Émission de Gaz à Effet de Serre (GES) moyenne rapportée à 1 000 utilisateurs (kilos CO2e) : 
+- Note Ecoindex : 45/100
+- Consommation d'eau moyenne rapportée à 1 000 utilisateurs (en litres) :  31.44 soit 3 packs d'eau
+- Émission de Gaz à Effet de Serre (GES) moyenne rapportée à 1 000 utilisateurs (kilos CO2e) : 2.10 soit un trajet de 10 kms en voiture à énergie thermique
 
 ## Méthode d'évaluation
 Comme toute production numérique, ce site web a un impact environnemental que nous vous présentons sur cette page à l’aide d’indicateurs standardisés.
@@ -24,6 +24,51 @@ Consommation d'eau (exprimée en litres) et émission de GES (kilos CO2e) liée 
 
 L'analyse indiquée a été effectuée le dimanche 4 octobre 2026, elle est susceptible d'évoluer : la quantification des impacts environnementaux présentée ci-dessous est une photographie réalisée à un instant T.
 ## Evaluation de l'impact de 5 pages du site
+
+### Page 1 : [Page d'accueil](https://www.iledefrance-mobilites.fr/)
+
+| Grade | Ecoindex | Eau (cl) | GES (gCO2e) | Nb de requêtes | Taille de la page (Ko) | Taille du DOM |
+| ----- | -------- | -------- | ----------- | -------------- | ---------------------- | ------------- |
+| E     | 36/100   | 3.42     | 2.28        | 296            | 905                    | 655           |
+
+- Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 34.20 (soit 4 packs d'eau minérale).
+- Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.28 (soit un trajet de 11 kms en voiture à énergie thermique).
+
+### Page 2 : [Horaires du métro](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/metro)
+
+| Grade | Ecoindex | Eau (cl) | GES (gCO2e) | Nb de requêtes | Taille de la page (Ko) | Taille du DOM |
+| ----- | -------- | -------- | ----------- | -------------- | ---------------------- | ------------- |
+| D     | 42/100   | 3.23     | 2.16        | 209            | 4164                   | 322           |
+
+- Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 32.30 (soit 4 packs d'eau minérale).
+- Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.16 (soit un trajet de 10 kms en voiture à énergie thermique).
+
+### Page 3 : [Perturbations](https://me-deplacer.iledefrance-mobilites.fr/infos-trafic/metro)
+
+| Grade | Ecoindex | Eau (cl) | GES (gCO2e) | Nb de requêtes | Taille de la page (Ko) | Taille du DOM |
+| ----- | -------- | -------- | ----------- | -------------- | ---------------------- | ------------- |
+| C     | 62/100   | 2.65     | 1.77        | 123            | 475                    | 260           |
+
+- Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 26.50 (soit 3 packs d'eau minérale).
+- Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 1.77 (soit un trajet de 8 kms en voiture à énergie thermique).
+
+### Page 4 : [tarifs](https://www.iledefrance-mobilites.fr/titres-et-tarifs)
+
+| Grade | Ecoindex | Eau (cl) | GES (gCO2e) | Nb de requêtes | Taille de la page (Ko) | Taille du DOM |
+| ----- | -------- | -------- | ----------- | -------------- | ---------------------- | ------------- |
+| E     | 38/100   | 3.35     | 2.23        | 252            | 413                    | 674           |
+
+- Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 33.50 (soit 4 packs d'eau minérale).
+- Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.23 (soit un trajet de 10 kms en voiture à énergie thermique).
+
+### Page 5 : [Autour de moi](https://me-deplacer.iledefrance-mobilites.fr/autour-de-moi)
+
+| Grade | Ecoindex | Eau (cl) | GES (gCO2e) | Nb de requêtes | Taille de la page (Ko) | Taille du DOM |
+| ----- | -------- | -------- | ----------- | -------------- | ---------------------- | ------------- |
+| D     | 48/100   | 3.07     | 2.05        | 184            | 1100                   | 401           |
+
+- Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 30.70 (soit 3 packs d'eau minérale).
+- Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.05 (soit un trajet de 9 kms en voiture à énergie thermique).
 
 ## Evaluation de l'impact pour 2 parcours utilisateurs sur le site
 
