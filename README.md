@@ -54,7 +54,7 @@ Nous avons choisi de comparer l'impact des scénarios sur les services d'opérat
 
 | Service                             | Score (sur 100) | Classe | Détail des mesures                  |
 | ----------------------------------- | --------------- | ------ | ----------------------------------- |
-| TCAT                                | 42              | D      | […](benchmark/TCAT.md)              |
-| Île-de-France Mobilités             | ...             | ...    | […](benchmark/IDFM.md)              |
-| CityMapper (à titre de comparaison) | ...             | ...    | […](benchmark/CityMapper.md)        |
+| TCAT                                | 42              | D      | […](Benchmark/tcat.md)              |
+| Île-de-France Mobilités             | ...             | ...    | […](Benchmark/IDFM.md)              |
+| CityMapper (à titre de comparaison) | ...             | ...    | […](Benchmark/CityMapper.md)        |
 
