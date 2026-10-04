@@ -9,7 +9,19 @@ Consommation d'eau moyenne rapportée à 1 000 utilisateurs (en litres) : 39.87 
 Émission de Gaz à Effet de Serre (GES) moyenne rapportée à 1 000 utilisateurs (kilos CO2e) : 2.66 kilos CO2e (soit un trajet de 12 kms en voiture à énergie thermique).*
 
 ## Méthode d'évaluation
+Comme toute production numérique, ce site web a un impact environnemental que nous vous présentons sur cette page à l’aide d’indicateurs standardisés.
 
+Nous utilisons le référentiel EcoIndex proposé par le collectif GreenIT.fr, pour évaluer la performance environnementale de ce site web. Celui-ci est quantifié grâce à deux types d'indicateurs :
+
+Niveau d’écoconception du site web. Cet indicateur évalue la mise en place de bonnes pratiques permettant de réduire l'impact d'une page web. Le niveau atteint est représenté par une évaluation relative de A à G (A est la meilleure note) associée à un score absolu de 0 à 100 (100 est la meilleure note).
+Consommation d'eau et émission de GES liées au chargement de la page. Cet indicateur quantifie la consommation d'eau douce (cls) et l'émission de GES (gCO2e) liées au chargement d'une page web.
+À des fins de synthèse, quatre types de données sont représentées :
+
+Niveau d'écoconception pour les 5 pages principales site web
+Niveau d'écoconception pour 2 scénarios utilisateurs type du site web
+Consommation d'eau (exprimée en litres) et émission de GES (kilos CO2e) liée au chargement d'une page web pour 1 utilisateur, et rapportée à 1 000 utilisateurs.
+Consommation d'eau (exprimée en litres) et émission de GES (kilos CO2e) liée à l'exécution d'un parcours pour 1 utilisateur, et rapportée à 1 000 utilisateurs.
+L'analyse indiquée a été effectuée le dimanche 4 octobre 2026, elle est susceptible d'évoluer : la quantification des impacts environnementaux présentée ci-dessous est une photographie réalisée à un instant T.
 ## Evaluation de l'impact de 5 pages du site
 
 ## Evaluation de l'impact pour 2 parcours utilisateurs sur le site
