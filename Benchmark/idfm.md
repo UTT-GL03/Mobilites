@@ -74,12 +74,35 @@ L'analyse indiquée a été effectuée le dimanche 4 octobre 2026, elle est susc
 
 ### Résultat du Scénario 1
 - Objectif du parcours : not required  
-- Parcours cible : not required. 
+- Parcours cible : not required.
+
+| Page | Grade | Ecoindex | Eau (cl) | GES (gCO2e) | Nb de requêtes | Taille de la course (Ko) | Taille du DOM |
+| ---- | ----- | -------- | -------- | ----------- | -------------- | ------------------------ | ------------- |
+| <https://www.iledefrance-mobilites.fr/> | D | 42/100 | 3.23 | 2.15 | 239 | 18 | 628 |
+| <https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/metro> | D | 55/100 | 2.86 | 1.91 | 205 | 263 | 316 |
+| <https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/metro/line%3AIDFM%3AC01379> | D | 52/100 | 2.94 | 1.96 | 281 | 1095 | 221 |
+| <https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/metro> | D | 48/100 | 3.06 | 2.04 | 370 | 1097 | 327 |
+| <https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/metro/line%3AIDFM%3AC01384> | D | 50/100 | 3.01 | 2.01 | 431 | 1562 | 228 |
+
+- Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 30.20 (soit 3 packs d'eau).
+- Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.01 (soit un trajet de 9 kms en voiture à énergie thermique).
 
 ### Résultat du Scénario 2 : "Être informé des perturbations du traffic"
 - Objectif du parcours : not required
 - Parcours cible : not required
-  
+
+### Parcours 2 : Être informé des perturbations du trafic
+
+| Page | Grade | Ecoindex | Eau (cl) | GES (gCO2e) | Nb de requêtes | Taille de la course (Ko) | Taille du DOM |
+| ---- | ----- | -------- | -------- | ----------- | -------------- | ------------------------ | ------------- |
+| <https://www.iledefrance-mobilites.fr/> | D | 42/100 | 3.23 | 2.15 | 238 | 17 | 628 |
+| <https://me-deplacer.iledefrance-mobilites.fr/infos-trafic/metro> | C | 63/100 | 2.62 | 1.74 | 122 | 265 | 259 |
+| <https://me-deplacer.iledefrance-mobilites.fr/infos-trafic/detail/line%3AIDFM%3AC01386> | C | 62/100 | 2.65 | 1.76 | 157 | 354 | 178 |
+| <https://me-deplacer.iledefrance-mobilites.fr/infos-trafic/metro> | C | 55/100 | 2.84 | 1.89 | 211 | 420 | 269 |
+| <https://me-deplacer.iledefrance-mobilites.fr/infos-trafic/detail/line%3AIDFM%3AC01376> | C | 57/100 | 2.78 | 1.85 | 245 | 465 | 187 |
+
+- Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 28.24 (soit 3 packs d'eau).
+- Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 1.88 (soit un trajet de 9 kms en voiture à énergie thermique).
 
 ## L'écoconception
 
