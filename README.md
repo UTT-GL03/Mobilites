@@ -58,3 +58,16 @@ Nous avons choisi de comparer l'impact des scénarios sur les services d'opérat
 | Île-de-France Mobilités             | 45              | D      | […](Benchmark/idfm.md)              |
 | CityMapper (à titre de comparaison) | 31              | E      | […](Benchmark/citymapper.md)        |
 
+Les mesures de l'impact moyen de ces services (cf. Tab.1) révèlent des classes EcoIndex médiocres (D) pour les deux opérateurs publics, et faibles (E) pour CityMapper.
+
+Dans le détail, les trois services sont pénalisés pour des raisons différentes :
+
+- TCAT : peu de requêtes, mais une page d'accueil extrêmement lourde (plus de 14 Mo), due à des images PNG non optimisées d'environ 650 Ko chacune. Cette seule page est classée F et fait chuter la moyenne du site.
+- Île-de-France Mobilités : des pages légères et un DOM réduit, mais un très grand nombre de requêtes (entre 184 et 296 par page).
+- CityMapper : un DOM très volumineux (plus de 1 000 éléments sur quatre pages sur cinq) et des pages lourdes, probablement liées à la carte interactive et à ses scripts.
+
+L'exécution des scénarios apporte deux enseignements. D'une part, le cache peut réduire fortement l'impact d'une consultation répétée : sur le site de la TCAT, la fiche horaires d'une deuxième ligne ne nécessite que 9 requêtes et 45 Ko, contre 57 requêtes et 1,7 Mo pour la première. D'autre part, le choix de tout charger d'un coup a un coût : la page « Infos trafic » de la TCAT charge les perturbations de tout le réseau, même si l'utilisateur ne s'intéresse qu'à une seule ligne.
+
+À l'inverse, le bon classement (C) de certaines pages, comme la page « Infos trafic » d'Île-de-France Mobilités ou les pages « Boutique en ligne » et « Points de vente » de la TCAT, montre qu'il existe une marge de progression significative, à condition d'optimiser les images, de limiter le nombre de requêtes et de simplifier la structure des pages.
+
+Les mesures d'Île-de-France Mobilités et de CityMapper ont été relevées manuellement dans les outils de développement du navigateur, puis converties en note EcoIndex avec la formule du référentiel. Les valeurs des scénarios de ces deux services sont à interpréter avec prudence, le cache n'ayant pas toujours pu être vidé entre les mesures.
