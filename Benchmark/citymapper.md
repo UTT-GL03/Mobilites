@@ -3,9 +3,9 @@
 Mesure effectuée le dimanche 4 octobre 2026
 
 ## Niveau d’écoconception du site web
-- Note Ecoindex : 
-- Consommation d'eau moyenne rapportée à 1 000 utilisateurs (en litres) :  
-- Émission de Gaz à Effet de Serre (GES) moyenne rapportée à 1 000 utilisateurs (kilos CO2e) : 
+- Note Ecoindex : 31/100
+- Consommation d'eau moyenne rapportée à 1 000 utilisateurs (en litres) : 35.68 (soit 4 packs d'eau).
+- Émission de Gaz à Effet de Serre (GES) moyenne rapportée à 1 000 utilisateurs (kilos CO2e) : 2.38 (soit un trajet de 11 kms en voiture à énergie thermique)
 
 ## Méthode d'évaluation
 Comme toute production numérique, ce site web a un impact environnemental que nous vous présentons sur cette page à l’aide d’indicateurs standardisés.
@@ -24,6 +24,51 @@ Consommation d'eau (exprimée en litres) et émission de GES (kilos CO2e) liée 
 
 L'analyse indiquée a été effectuée le dimanche 4 octobre 2026, elle est susceptible d'évoluer : la quantification des impacts environnementaux présentée ci-dessous est une photographie réalisée à un instant T.
 ## Evaluation de l'impact de 5 pages du site
+
+### Page 1 : [Page d'accueil](https://citymapper.com/paris?lang=fr)
+
+| Grade | Ecoindex | Eau (cl) | GES (gCO2e) | Nb de requêtes | Taille de la page (Ko) | Taille du DOM |
+| ----- | -------- | -------- | ----------- | -------------- | ---------------------- | ------------- |
+| E     | 39/100   | 3.34     | 2.22        | 78             | 2584                   | 850           |
+
+- Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 33.40 (soit 4 packs d'eau).
+- Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.22 (soit un trajet de 10 kms en voiture à énergie thermique).
+
+### Page 2 : [Perturbations](https://citymapper.com/paris/status)
+
+| Grade | Ecoindex | Eau (cl) | GES (gCO2e) | Nb de requêtes | Taille de la page (Ko) | Taille du DOM |
+| ----- | -------- | -------- | ----------- | -------------- | ---------------------- | ------------- |
+| F     | 20/100   | 3.89     | 2.59        | 161            | 1100                   | 1868          |
+
+- Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 38.90 (soit 4 packs d'eau).
+- Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.59 (soit un trajet de 12 kms en voiture à énergie thermique).
+
+### Page 3 : [Autour de moi](https://citymapper.com/paris/metro/stations?name=Eiffel%20Tower&coords=48.8582%2C2.2945)
+
+| Grade | Ecoindex | Eau (cl) | GES (gCO2e) | Nb de requêtes | Taille de la page (Ko) | Taille du DOM |
+| ----- | -------- | -------- | ----------- | -------------- | ---------------------- | ------------- |
+| E     | 40/100   | 3.30     | 2.20        | 70             | 124                    | 1604          |
+
+- Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 33.00 (soit 4 packs d'eau).
+- Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.20 (soit un trajet de 10 kms en voiture à énergie thermique).
+
+### Page 4 : [Avis](https://citymapper.com/love)
+
+| Grade | Ecoindex | Eau (cl) | GES (gCO2e) | Nb de requêtes | Taille de la page (Ko) | Taille du DOM |
+| ----- | -------- | -------- | ----------- | -------------- | ---------------------- | ------------- |
+| F     | 18/100   | 3.95     | 2.63        | 132            | 2561                   | 1758          |
+
+- Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 39.50 (soit 4 packs d'eau).
+- Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.63 (soit un trajet de 12 kms en voiture à énergie thermique).
+
+### Page 5 : [Itinéraire](https://citymapper.com/directions?startcoord=48.85837%2C2.294481&endcoord=48.853186%2C2.369124&startname=Tour+Eiffel&endname=Bastille&startaddress=Avenue+Gustave+Eiffel%2C+Paris%2C+France)
+
+| Grade | Ecoindex | Eau (cl) | GES (gCO2e) | Nb de requêtes | Taille de la page (Ko) | Taille du DOM |
+| ----- | -------- | -------- | ----------- | -------------- | ---------------------- | ------------- |
+| E     | 38/100   | 3.36     | 2.24        | 90             | 589                    | 1175          |
+
+- Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 33.60 (soit 4 packs d'eau).
+- Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.24 (soit un trajet de 10 kms en voiture à énergie thermique).
 
 ## Evaluation de l'impact pour 2 parcours utilisateurs sur le site
 
