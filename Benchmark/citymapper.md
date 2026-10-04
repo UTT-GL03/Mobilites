@@ -73,13 +73,19 @@ L'analyse indiquée a été effectuée le dimanche 4 octobre 2026, elle est susc
 ## Evaluation de l'impact pour 2 parcours utilisateurs sur le site
 
 ### Résultat du Scénario 1
-- Objectif du parcours : not required  
-- Parcours cible : not required. 
+Le scénario 2 n'est pas applicable car le site city mapper n'a pas de fonctionnalité pour consulter les horaires uniquement (il faut passer par le générateur d'itinéraire)
 
 ### Résultat du Scénario 2 : "Être informé des perturbations du traffic"
-- Objectif du parcours : not required
-- Parcours cible : not required
-  
+| Page | Grade | Ecoindex | Eau (cl) | GES (gCO2e) | Nb de requêtes | Taille de la course (Ko) | Taille du DOM |
+| ---- | ----- | -------- | -------- | ----------- | -------------- | ------------------------ | ------------- |
+| <https://citymapper.com/paris?lang=fr> | D | 49/100 | 3.04 | 2.03 | 76 | 365 | 836 |
+| <https://citymapper.com/paris/status> | E | 29/100 | 3.64 | 2.43 | 117 | 372 | 1863 |
+| <https://citymapper.com/paris/metro/metro-m11> | E | 35/100 | 3.45 | 2.30 | 174 | 447 | 871 |
+| <https://citymapper.com/paris/status> | F | 16/100 | 4.01 | 2.67 | 208 | 1412 | 1882 |
+| <https://citymapper.com/paris/metro/metro-m6> | E | 26/100 | 3.73 | 2.49 | 244 | 1426 | 966 |
+
+- Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 35.74 (soit 4 packs d'eau).
+- Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.38 (soit un trajet de 11 kms en voiture à énergie thermique).
 
 ## L'écoconception
 
