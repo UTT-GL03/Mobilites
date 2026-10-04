@@ -17,10 +17,12 @@ Niveau d’écoconception du site web. Cet indicateur évalue la mise en place d
 Consommation d'eau et émission de GES liées au chargement de la page. Cet indicateur quantifie la consommation d'eau douce (cls) et l'émission de GES (gCO2e) liées au chargement d'une page web.
 À des fins de synthèse, quatre types de données sont représentées :
 
-Niveau d'écoconception pour les 5 pages principales site web
-Niveau d'écoconception pour 2 scénarios utilisateurs type du site web
+Niveau d'écoconception pour les 5 pages principales site web. 
+Niveau d'écoconception pour 2 scénarios utilisateurs type du site web. 
+
 Consommation d'eau (exprimée en litres) et émission de GES (kilos CO2e) liée au chargement d'une page web pour 1 utilisateur, et rapportée à 1 000 utilisateurs.
 Consommation d'eau (exprimée en litres) et émission de GES (kilos CO2e) liée à l'exécution d'un parcours pour 1 utilisateur, et rapportée à 1 000 utilisateurs.
+
 L'analyse indiquée a été effectuée le dimanche 4 octobre 2026, elle est susceptible d'évoluer : la quantification des impacts environnementaux présentée ci-dessous est une photographie réalisée à un instant T.
 ## Evaluation de l'impact de 5 pages du site
 
