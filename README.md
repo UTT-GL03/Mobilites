@@ -71,3 +71,11 @@ L'exécution des scénarios apporte deux enseignements. D'une part, le cache peu
 À l'inverse, le bon classement (C) de certaines pages, comme la page « Infos trafic » d'Île-de-France Mobilités ou les pages « Boutique en ligne » et « Points de vente » de la TCAT, montre qu'il existe une marge de progression significative, à condition d'optimiser les images, de limiter le nombre de requêtes et de simplifier la structure des pages.
 
 Les mesures d'Île-de-France Mobilités et de CityMapper ont été relevées manuellement dans les outils de développement du navigateur, puis converties en note EcoIndex avec la formule du référentiel. Les valeurs des scénarios de ces deux services sont à interpréter avec prudence, le cache n'ayant pas toujours pu être vidé entre les mesures.
+
+## Modèle économique
+
+| Service                             | Visiteur anonyme | Utilisateur payant | 
+| ----------------------------------- | --------------- | ------------------- |
+| TCAT                                |                 |                     | 
+| Île-de-France Mobilités             |                 |                     | 
+| CityMapper (à titre de comparaison) |                 |                     | 
