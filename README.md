@@ -79,7 +79,7 @@ Les mesures d'Île-de-France Mobilités et de CityMapper ont été relevées man
 | ----------------------------------- | -------------------------------------- |
 | TCAT                                |                                        | 
 | Île-de-France Mobilités             | <ul><li>48% Employeurs (versement mobilité)</li><li>33% Utilisateurs (titres de transports)</li><li>15% Concours publics</li><li>2% État (subventions)</li><li>2% Autres</li> | 
-| CityMapper (à titre de comparaison) | <ul><li>Publicités ciblées</li><li>Commission sur les moyens de transports alternatifs hors réseau de transport en communs classiques</li><li>Frais de licence et d'intégration</li></ul><ul><li>Utilisateurs gratuit :</li><li>- Multi-modal routing</li><li>- Real-time departures</li> <li>- Basic navigation</li><li>- Transit alerts</li><ul><li>Utilisateurs payants :</li><li>- Live location sharing</li><li>- Weather</li><li>- Priority support</li> | 
+| CityMapper (à titre de comparaison) | Publicités ciblées, Commission sur les moyens de transports alternatifs hors réseau de transport en communs classiques, Frais de licence et d'intégration<ul>Utilisateurs gratuit :<li>Multi-modal routing</li><li>Real-time departures</li> <li>Basic navigation</li><li>Transit alerts</li><ul>Utilisateurs payants :<li>Live location sharing</li><li>Weather</li><li>Priority support</li> | 
 
 Sources : 
 - [Assises de financement transports franciliens](https://www.iledefrance-mobilites.fr/decouvrir/assises-financement-transports-franciliens-2024-2030) 
