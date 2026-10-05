@@ -82,7 +82,7 @@ Les mesures d'Île-de-France Mobilités et de CityMapper ont été relevées man
 | CityMapper (à titre de comparaison) | Publicités ciblées, Commission sur les moyens de transports alternatifs hors réseau de transport en communs classiques, Frais de licence et d'intégration<ul>Utilisateurs gratuit :<li>Multi-modal routing</li><li>Real-time departures</li> <li>Basic navigation</li><li>Transit alerts</li><ul>Utilisateurs payants :<li>Live location sharing</li><li>Weather</li><li>Priority support</li> | 
 
 Sources : 
-- [Rapport d'activité 2018 de la régie des transports en commun de l'agglomeration troyenne]([https://www.iledefrance-mobilites.fr/decouvrir/assises-financement-transports-franciliens-2024-2030](https://troyes-champagne-metropole.fr/wp-content/uploads/2022/06/18-rapport-annuel-tcat.pdf)) 
+- [Rapport d'activité 2018 de la régie des transports en commun de l'agglomeration troyenne](https://troyes-champagne-metropole.fr/wp-content/uploads/2022/06/18-rapport-annuel-tcat.pdf) 
 - [Assises de financement transports franciliens](https://www.iledefrance-mobilites.fr/decouvrir/assises-financement-transports-franciliens-2024-2030) 
 - [Pricing citymapper](https://www.softwr.com/pricing/citymapper) 
 - [Citymapper Ads](https://ads.citymapper.com) 
