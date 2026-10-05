@@ -87,4 +87,7 @@ Sources :
 - [Citymapper Ads](https://ads.citymapper.com) 
 - [How CityMapper make money](https://productmint.com/citymapper-business-model-how-does-citymapper-make-money/)
 
+### Structure de concurrence
+
+À Troyes, l'application mobilité de la TCAT est en situation de monopole car c'est la seule entreprise à gérer le réseau de transports en communs (bus) de l'agglomération. 
 
