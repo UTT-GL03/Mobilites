@@ -95,3 +95,10 @@ Sources :
 ### Sources de financement
 La TCAT est financée par le financement public, les subventions ainsi que par la vente de titres de transport. Le financement de notre solution sera donc financée de la même façon.
 
+| Source possible de revenus | Montant unitaire | Quantité nécessaire pour financer un salaire
+| --- | --: | --:
+| Abonnement mensuel de 4 à 25 ans et abonnement mensuel de 65 ans et plus | 21€  | 170
+| Abonnement mensuel de 26 à 64 ans | 42€  | 85
+| Titre de transport 1 voyage | 1.35€  | 2 644
+| Titre de transport 3 voyage | 3.90€  | 916
+| Titre de transport 10 voyage | 11.50€  | 311
