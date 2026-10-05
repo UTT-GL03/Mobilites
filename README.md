@@ -78,28 +78,13 @@ Les mesures d'Île-de-France Mobilités et de CityMapper ont été relevées man
 | Service                             | Modèle économique                      | 
 | ----------------------------------- | -------------------------------------- |
 | TCAT                                |                                        | 
-| Île-de-France Mobilités             | - 48% Employeurs (versement mobilité)
-                                        - 33% Utilisateurs (titres de transports)
-                                        - 15% Concours publics
-                                        - 2% État (subventions)
-                                        - 2% Autres | 
-| CityMapper (à titre de comparaison) | Publicités ciblées  
-                                        Commission sur les moyens de transports alternatifs hors réseau de transport en communs classiques  
-                                        Frais de licence et d'intégration   
-                                        
-                                        Utilisateurs gratuit : 
-                                        - Multi-modal routing  
-                                        - Real-time departures  
-                                        - Basic navigation  
-                                        - Transit alerts  
-                                        
-                                        Utilisateurs payants :  
-                                        - Live location sharing  
-                                        - Weather integration  
-                                        - Widgets  
-                                        - Priority support | 
+| Île-de-France Mobilités             | <ul><li>48% Employeurs (versement mobilité)</li><li>33% Utilisateurs (titres de transports)</li><li>15% Concours publics</li><li>2% État (subventions)</li><li>2% Autres</li> | 
+| CityMapper (à titre de comparaison) | <ul><li>Publicités ciblées</li><li>Commission sur les moyens de transports alternatifs hors réseau de transport en communs classiques</li><li>Frais de licence et d'intégration</li></ul><ul><li>Utilisateurs gratuit :</li><li>- Multi-modal routing</li><li>- Real-time departures</li> <li>- Basic navigation</li><li>- Transit alerts</li><ul><li>Utilisateurs payants :</li><li>- Live location sharing</li><li>- Weather</li><li>- Priority support</li> | 
 
-Source : https://www.iledefrance-mobilites.fr/decouvrir/assises-financement-transports-franciliens-2024-2030 
-Source : https://www.softwr.com/pricing/citymapper
-Source : https://ads.citymapper.com
-Source : https://productmint.com/citymapper-business-model-how-does-citymapper-make-money/
+Sources : 
+- [Assises de financement transports franciliens](https://www.iledefrance-mobilites.fr/decouvrir/assises-financement-transports-franciliens-2024-2030) 
+- [Pricing citymapper](https://www.softwr.com/pricing/citymapper) 
+- [Citymapper Ads](https://ads.citymapper.com) 
+- [How CityMapper make money](https://productmint.com/citymapper-business-model-how-does-citymapper-make-money/)
+
+
