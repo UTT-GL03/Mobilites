@@ -78,8 +78,26 @@ Les mesures d'Île-de-France Mobilités et de CityMapper ont été relevées man
 | Service                             | Modèle économique                      | 
 | ----------------------------------- | -------------------------------------- |
 | TCAT                                |                                        | 
-| Île-de-France Mobilités             |                 pas de différenciation | 
-| CityMapper (à titre de comparaison) | Publicités ciblées  Commission sur les moyens de transports alternatifs hors réseau de transport en communs classiques  Frais de licence et d'intégration   Utilisateurs gratuit : - Multi-modal routing  - Real-time departures  - Basic navigation  - Transit alerts  Utilisateurs payants :  - Live location sharing  - Weather integration  - Widgets  - Priority support | 
+| Île-de-France Mobilités             | - 48% Employeurs (versement mobilité)
+                                        - 33% Utilisateurs (titres de transports)
+                                        - 15% Concours publics
+                                        - 2% État (subventions)
+                                        - 2% Autres | 
+| CityMapper (à titre de comparaison) | Publicités ciblées  
+                                        Commission sur les moyens de transports alternatifs hors réseau de transport en communs classiques  
+                                        Frais de licence et d'intégration   
+                                        
+                                        Utilisateurs gratuit : 
+                                        - Multi-modal routing  
+                                        - Real-time departures  
+                                        - Basic navigation  
+                                        - Transit alerts  
+                                        
+                                        Utilisateurs payants :  
+                                        - Live location sharing  
+                                        - Weather integration  
+                                        - Widgets  
+                                        - Priority support | 
 
 Source : https://www.iledefrance-mobilites.fr/decouvrir/assises-financement-transports-franciliens-2024-2030 
 Source : https://www.softwr.com/pricing/citymapper
