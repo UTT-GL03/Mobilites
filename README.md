@@ -77,7 +77,7 @@ Les mesures d'Île-de-France Mobilités et de CityMapper ont été relevées man
 
 | Service                             | Modèle économique                      | 
 | ----------------------------------- | -------------------------------------- |
-| TCAT                                | <ul><li>Financements publics, subventions et vente de titres de transport</li></ul>| 
+| TCAT                                | <ul><li>Financements publics</li><li>Subventions</li><li>Vente de titres de transport</li></ul>| 
 | Île-de-France Mobilités             | <ul><li>48% Employeurs (versement mobilité)</li><li>33% Utilisateurs (titres de transports)</li><li>15% Concours publics</li><li>2% État (subventions)</li><li>2% Autres</li> | 
 | CityMapper (à titre de comparaison) | Publicités ciblées, Commission sur les moyens de transports alternatifs hors réseau de transport en communs classiques, Frais de licence et d'intégration<ul>Utilisateurs gratuit :<li>Multi-modal routing</li><li>Real-time departures</li> <li>Basic navigation</li><li>Transit alerts</li><ul>Utilisateurs payants :<li>Live location sharing</li><li>Weather</li><li>Priority support</li> | 
 
