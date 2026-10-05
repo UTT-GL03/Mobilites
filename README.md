@@ -79,8 +79,9 @@ Les mesures d'Île-de-France Mobilités et de CityMapper ont été relevées man
 | ----------------------------------- | -------------------------------------- |
 | TCAT                                |                                        | 
 | Île-de-France Mobilités             |                 pas de différenciation | 
-| CityMapper (à titre de comparaison) | Publicités ciblées, Commission, Multi-modal routing, Real-time departures, Basic navigation, Transit alerts, Publicités ciblées, Live location sharing, Weather integration, Widgets, Priority support | 
+| CityMapper (à titre de comparaison) | Publicités ciblées  Commission sur les moyens de transports alternatifs hors réseau de transport en communs classiques  Frais de licence et d'intégration   Utilisateurs gratuit : - Multi-modal routing  - Real-time departures  - Basic navigation  - Transit alerts  Utilisateurs payants :  - Live location sharing  - Weather integration  - Widgets  - Priority support | 
 
 Source : https://www.iledefrance-mobilites.fr/decouvrir/assises-financement-transports-franciliens-2024-2030 
 Source : https://www.softwr.com/pricing/citymapper
 Source : https://ads.citymapper.com
+Source : https://productmint.com/citymapper-business-model-how-does-citymapper-make-money/
