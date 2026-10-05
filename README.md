@@ -91,3 +91,6 @@ Sources :
 
 À Troyes, l'application mobilité de la TCAT est en situation de monopole car c'est la seule entreprise à gérer le réseau de transports en communs (bus) de l'agglomération. 
 
+### Sources de financement
+La TCAT est financée par le financement public, les subventions ainsi que par la vente de titres de transport. Le financement de notre solution sera donc financée de la même façon.
+
