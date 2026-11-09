@@ -107,12 +107,17 @@ La TCAT est financée par le financement public, les subventions ainsi que par l
 
 Au vu des différents services comparés, des exigences environnementales exprimées plus haut et des scénarios retenus, nous avons défini pour notre prototype une maquette de l'interface et un échantillon de données réalistes.
 
-Les ressources Web possédant une représentation sur notre application seront au nombre de neuf :
+Les ressources Web possédant une représentation sur notre application seront au nombre de sept :
 
-- une page d'accueil contenant une présentation de l'entreprise et une FAQ (avec pour chemin `/`).
+- les titres de transport de l'utilisateur (avec pour chemin `/mes-titres-de-transport`).
+- la page de la boutique en ligne (avec pour chemin `/boutique-en-ligne`).
 - la liste des lignes (avec pour chemin `/lignes`).
 - les horaires de la ligne sélectionnée (avec pour chemin `/ligne/{id}`).
 - les perturbations des lignes (avec pour chemin `/perturbations`).
-- la page de la boutique en ligne (avec pour chemin `/boutique-en-ligne`).
+- une page d'accueil contenant une présentation de l'entreprise et une FAQ (avec pour chemin `/`).
 - le panier  de l'utilisateur  (avec pour chemin `/panier`).
-- les titres de transport de l'utilisateur (avec pour chemin `/mes-titres-de-transport`).
+
+- ![Maquette des quatres premiers types de page](./docs/Mockup1.png)
+- ![Maquette des trois derniers types de page](./docs/Mockup2.png)
+__Fig.1__: Maquette de l'interface du prototype : __a.__ page pour les titres titres de transports de l'utilisateur, __b.__ page de la boutique en ligne, __c.__ page de la liste des lignes de transport, __d.__ page des horaires de la ligne sélectionnée.
+__Fig.2__: Maquette de l'interface du prototype : __a.__ page des perturbations des lignes de transports, __b.__ page d'accueil, __c.__ page du panier de l'utilisateur.
