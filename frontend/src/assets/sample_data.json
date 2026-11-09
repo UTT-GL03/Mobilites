@@ -1,0 +1,87 @@
+{
+  "lignes": [
+    {
+      "id": "1",
+      "nom": "Ligne 1",
+      "arrets": [
+        { "nom": "Gare", "passages": ["07:00", "07:30", "08:00"] },
+        { "nom": "Hôtel de Ville", "passages": ["07:06", "07:36", "08:06"] },
+        { "nom": "Université", "passages": ["07:15", "07:45", "08:15"] }
+      ],
+      "perturbations": [
+        {
+          "id": 101,
+          "titre": "Travaux rue Émile Zola",
+          "description": "Arrêt Hôtel de Ville non desservi.",
+          "debut": "2026-11-01",
+          "fin": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "nom": "Ligne 2",
+      "arrets": [
+        { "nom": "Halles", "passages": ["06:45", "07:15", "07:45"] },
+        { "nom": "Boulevard Gambetta", "passages": ["06:52", "07:22", "07:52"] },
+        { "nom": "Hôpital", "passages": ["07:03", "07:33", "08:03"] }
+      ],
+      "perturbations": [
+        {
+          "id": 201,
+          "titre": "Marché de Noël",
+          "description": "Déviation par le boulevard Gambetta.",
+          "debut": "2026-11-28",
+          "fin": "2026-12-24"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "nom": "Ligne 3",
+      "arrets": [
+        { "nom": "Centre commercial", "passages": ["08:00", "09:00", "10:00"] },
+        { "nom": "Stade", "passages": ["08:10", "09:10", "10:10"] }
+      ],
+      "perturbations": []
+    }
+  ],
+  "titres": [
+    {
+      "id": "ticket-unite",
+      "nom": "Ticket 1 voyage",
+      "description": "Valable 1 h, correspondances comprises.",
+      "prix": 1.5
+    },
+    {
+      "id": "carnet-10",
+      "nom": "Carnet 10 voyages",
+      "description": "Dix tickets à utiliser quand vous voulez.",
+      "prix": 13
+    },
+    {
+      "id": "pass-24h",
+      "nom": "Pass 24 heures",
+      "description": "Voyages illimités pendant 24 h.",
+      "prix": 4.5
+    },
+    {
+      "id": "abonnement-mensuel",
+      "nom": "Abonnement mensuel",
+      "description": "Voyages illimités pendant un mois.",
+      "prix": 40
+    },
+    {
+      "id": "abonnement-jeune",
+      "nom": "Abonnement -26 ans",
+      "description": "Mensuel à tarif réduit pour les moins de 26 ans.",
+      "prix": 25
+    },
+    {
+      "id": "abonnement-annuel",
+      "nom": "Abonnement annuel",
+      "description": "Voyages illimités pendant un an.",
+      "prix": 400
+    }
+  ]
+}
