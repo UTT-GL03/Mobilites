@@ -1,7 +1,7 @@
 import TicketGrid from "../components/Boutique/TicketGrid";
 import data from "../assets/sample_data.json";
 
-export default function Boutique() {
+export default function BoutiqueEnLigne() {
     function handleAcheter(titre) {
         alert(`« ${titre.nom} » ajouté à votre commande.`);
     }

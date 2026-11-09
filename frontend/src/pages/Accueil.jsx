@@ -1,7 +1,7 @@
 import Section from "../components/Section/Section";
 import FaqItem from "../components/Faq/FaqItem";
 
-export default function Home() {
+export default function Accueil() {
     return (
         <>
             <Section title="Qui sommes-nous ?">
