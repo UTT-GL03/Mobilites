@@ -107,15 +107,13 @@ La TCAT est financée par le financement public, les subventions ainsi que par l
 
 Au vu des différents services comparés, des exigences environnementales exprimées plus haut et des scénarios retenus, nous avons défini pour notre prototype une maquette de l'interface et un échantillon de données réalistes.
 
-Les ressources Web possédant une représentation sur notre application seront au nombre de sept :
+Les ressources Web possédant une représentation sur notre application seront au nombre de cinq :
 
-- les titres de transport de l'utilisateur (avec pour chemin `/mes-titres-de-transport`).
 - la page de la boutique en ligne (avec pour chemin `/boutique-en-ligne`).
 - la liste des lignes (avec pour chemin `/lignes`).
 - les horaires de la ligne sélectionnée (avec pour chemin `/ligne/{id}`).
 - les perturbations des lignes (avec pour chemin `/perturbations`).
 - une page d'accueil contenant une présentation de l'entreprise et une FAQ (avec pour chemin `/`).
-- le panier  de l'utilisateur  (avec pour chemin `/panier`).
 
   ![Maquette des quatres premiers types de page](./docs/Mockup1.png)
   ![Maquette des trois derniers types de page](./docs/Mockup2.png)
