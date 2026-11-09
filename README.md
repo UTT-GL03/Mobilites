@@ -117,7 +117,7 @@ Les ressources Web possédant une représentation sur notre application seront a
 - une page d'accueil contenant une présentation de l'entreprise et une FAQ (avec pour chemin `/`).
 - le panier  de l'utilisateur  (avec pour chemin `/panier`).
 
-- ![Maquette des quatres premiers types de page](./docs/Mockup1.png)
-- ![Maquette des trois derniers types de page](./docs/Mockup2.png)
+  ![Maquette des quatres premiers types de page](./docs/Mockup1.png)
+  ![Maquette des trois derniers types de page](./docs/Mockup2.png)
 __Fig.1__: Maquette de l'interface du prototype : __a.__ page pour les titres titres de transports de l'utilisateur, __b.__ page de la boutique en ligne, __c.__ page de la liste des lignes de transport, __d.__ page des horaires de la ligne sélectionnée.
 __Fig.2__: Maquette de l'interface du prototype : __a.__ page des perturbations des lignes de transports, __b.__ page d'accueil, __c.__ page du panier de l'utilisateur.
