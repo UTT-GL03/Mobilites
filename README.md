@@ -102,3 +102,19 @@ La TCAT est financée par le financement public, les subventions ainsi que par l
 | Titre de transport 1 voyage | 1.35€  | 2 644
 | Titre de transport 3 voyage | 3.90€  | 916
 | Titre de transport 10 voyage | 11.50€  | 311
+
+## Maquette de l'interface et échantillon de données
+
+Au vu des différents services comparés, des exigences environnementales exprimées plus haut et des scénarios retenus, nous avons défini pour notre prototype une maquette de l'interface et un échantillon de données réalistes.
+
+Les ressources Web possédant une représentation sur notre application seront au nombre de neuf :
+
+- une page d'accueil contenant une présentation de l'entreprise et une FAQ (avec pour chemin `/`).
+- la liste des lignes (avec pour chemin `/lignes`).
+- les horaires de la ligne sélectionnée (avec pour chemin `/ligne/{id}`).
+- les perturbations des lignes (avec pour chemin `/perturbations`).
+- la page de connexion (avec pour chemin `/connexion`).
+- la page d'inscription (avec pour chemin `/inscription`).
+- la page de la boutique en ligne (avec pour chemin `/boutique-en-ligne`).
+- le panier  de l'utilisateur  (avec pour chemin `/panier`).
+- les titres de transport de l'utilisateur (avec pour chemin `/mes-titres-de-transport`).
