@@ -113,8 +113,6 @@ Les ressources Web possédant une représentation sur notre application seront a
 - la liste des lignes (avec pour chemin `/lignes`).
 - les horaires de la ligne sélectionnée (avec pour chemin `/ligne/{id}`).
 - les perturbations des lignes (avec pour chemin `/perturbations`).
-- la page de connexion (avec pour chemin `/connexion`).
-- la page d'inscription (avec pour chemin `/inscription`).
 - la page de la boutique en ligne (avec pour chemin `/boutique-en-ligne`).
 - le panier  de l'utilisateur  (avec pour chemin `/panier`).
 - les titres de transport de l'utilisateur (avec pour chemin `/mes-titres-de-transport`).
