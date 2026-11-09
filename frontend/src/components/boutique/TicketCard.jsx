@@ -3,21 +3,19 @@ const formatPrix = (prix) =>
 
 export default function TicketCard({ titre, onAcheter }) {
     return (
-        <li>
-            <article>
-                <div>
-                    <h2>{titre.nom}</h2>
-                    <p>{titre.description}</p>
-                    <p>{formatPrix(titre.prix)}</p>
-                </div>
-                <button
-                    type="button"
-                    onClick={() => onAcheter(titre)}
-                    aria-label={`Acheter ${titre.nom}`}
-                >
-                    Acheter
-                </button>
-            </article>
-        </li>
+        <article className="ticket">
+            <div>
+                <h2>{titre.nom}</h2>
+                <p>{titre.description}</p>
+                <p className="prix">{formatPrix(titre.prix)}</p>
+            </div>
+            <button
+                type="button"
+                onClick={() => onAcheter(titre)}
+                aria-label={`Acheter ${titre.nom}`}
+            >
+                Acheter
+            </button>
+        </article>
     );
 }

@@ -1,6 +1,6 @@
 export default function PerturbationFilter({ value, onChange }) {
     return (
-        <fieldset>
+        <fieldset className="filtre">
             <legend>Afficher les perturbations</legend>
             <label>
                 <input

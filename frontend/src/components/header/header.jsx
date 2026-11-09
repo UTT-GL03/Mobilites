@@ -1,15 +1,15 @@
 import Logo from "./Logo";
 import NavBar from "./NavBar";
-import UserMenu from "./UserMenu";
 
 export default function Header() {
     return (
-        <header>
-            <Logo />
-            <div>
+        <header className="site-header">
+            <nav className="container" aria-label="Navigation principale">
+                <ul>
+                    <li><Logo /></li>
+                </ul>
                 <NavBar />
-                <UserMenu />
-            </div>
+            </nav>
         </header>
     );
 }

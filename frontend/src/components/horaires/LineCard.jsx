@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 export default function LineCard({ ligne }) {
     return (
-        <li>
-            <Link to={`/horaires/${ligne.id}`}>
+        <Link to={`/horaires/${ligne.id}`} className="carte-lien">
+            <article>
                 <h2>{ligne.nom}</h2>
                 <p>{ligne.arrets.length} arrêts</p>
-            </Link>
-        </li>
+            </article>
+        </Link>
     );
 }
