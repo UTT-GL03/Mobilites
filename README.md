@@ -142,6 +142,24 @@ Les noms de famille anglais fournis par dummy-json ont été remplacés par une 
 
 Enfin, repeat ne permettant pas d’accéder au numéro de la ligne parente, nous l’avons mémorisé avec `{{#with}}` pour numéroter les perturbations.
 
+## Implémentation du scénario prioritaire
+
+### Étape de prototypage : Données chargées de manière statique
+
+Pour cette première version du prototype (`v1.0.0`) :
+
+- l'échantillon de données est encore chargé dans le code de manière statique,
+- les fonctionnalités implémentées vont au-delà du scénario proritaire ("Consulter les horaires de passage d'une ligne de bus")
+
+Ce scénario nécessite de pouvoir naviguer entre deux types de page : la page qui liste les lignes de bus et la page qui affiche les horaires de la ligne  sélectionnée.
+
+### ¨Page des lignes de bus
+
+Nous avons développé la page des lignes de bus (cf. Fig. 3) pour qu'elle affiche l'échantillon de données sous une forme proche de ce que prévoyait la maquette.
+
+![Prototype de la page des lignes de bus](./docs/liste_lignes_screenshot.png)
+__Fig.3__: Prototype de la page des lignes de bus.
+
 ### Automatisation 
 À la racine du projet exécuter la commande suivante pour générer le rapport d'impact écologique du premier scénario "Consulter les horaires: de passage d'une ligne de bus" :
 ```bash
