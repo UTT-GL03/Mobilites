@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import TicketGrid from "../components/Boutique/TicketGrid";
+import TicketGrid from "../components/boutique/TicketGrid";
 
 export default function BoutiqueEnLigne() {
     const [titres, setTitres] = useState([]);

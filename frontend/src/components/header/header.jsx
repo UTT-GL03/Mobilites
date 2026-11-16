@@ -1,4 +1,4 @@
-import Logo from "./Logo";
+import Logo from "./logo";
 import NavBar from "./NavBar";
 
 export default function Header() {

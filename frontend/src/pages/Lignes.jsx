@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import LineGrid from "../components/Lignes/LineGrid";
+import LineGrid from "../components/lignes/LineGrid";
 
 export default function Lignes() {
     const [lignes, setLignes] = useState([]);
