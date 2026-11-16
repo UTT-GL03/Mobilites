@@ -129,11 +129,12 @@ __c.__ page du panier de l'utilisateur.
 
 ### Échantillon de données
 
-Pour concevoir l’interface sans dépendre d’une vraie base de données, nous avons généré un échantillon fictif avec `dummy-json`. Nous sommes partis du modèle prévu pour des articles de journaux, que nous avons adapté à notre domaine `(data/sample_data.hbs)`.  
+Pour concevoir l’interface sans dépendre d’une vraie base de données, nous avons généré un échantillon fictif avec `dummy-json`. Nous sommes partis du modèle prévu pour des articles de journaux, que nous avons adapté à notre domaine `(data/big_sample_data.hbs)`.  
 
 Le modèle génère entre 6 et 12 lignes de bus avec chacune entre 4 et 9 arrêts, leurs horaires de passage, 0 à 2 perturbations par ligne, ainsi qu’une liste de titres de transport avec leur prix. L’échantillon est ensuite obtenu avec la commande 
 ```bash
-npx dummy-json sample_data.hbs > src/assets/sample_data.json
+cd data
+npx dummy-json sample_data.hbs > sample_data.json
 ```
 
 Nous avons dû modifier le modèle plusieurs fois avant d’obtenir un résultat cohérent. Les horaires tirés au hasard n’avaient aucun sens dans un tableau de passages, nous les avons donc calculés : chaque arrêt est desservi 6 minutes après le précédent, à 6 h, 7 h et 8 h. De même, la date de fin d’une perturbation est toujours postérieure à sa date de début. 
@@ -168,5 +169,5 @@ __Fig.3__: Prototype de la page des lignes de bus.
 
 Pour le second scénario "Être informé des perturbations du traffic", exécuter la commande suivante :
 ```bash
-greenit analyse scenarios/consulter_perturbations.yml rapports/perturbations.html --headless false
+greenit analyse scenarios/consulter_perturbations.yml perturbations.html --headless false
 ```

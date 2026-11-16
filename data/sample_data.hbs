@@ -1,6 +1,6 @@
 {
   "lignes": [
-    {{#repeat min=6 max=12}}
+    {{#repeat 1000}}
     {{#with (add @index 1) as |numLigne|}}
     {
       "id": "{{numLigne}}",
@@ -20,7 +20,7 @@
         {{/repeat}}
       ],
       "perturbations": [
-        {{#repeat min=0 max=2}}
+        {{#repeat min=0 max=20}}
         {
           "id": {{numLigne}}0{{add @index 1}},
           "titre": "{{random 'Travaux' 'Manifestation' 'Accident' 'Déviation' 'Arrêt non desservi'}} {{random 'rue Victor Hugo' 'avenue Pasteur' 'place de la République' 'boulevard Gambetta' 'quai des Tanneurs' 'rue Émile Zola'}}",
@@ -35,7 +35,7 @@
     {{/repeat}}
   ],
   "titres": [
-    {{#repeat min=4 max=9}}
+    {{#repeat min=400 max=900}}
     {
       "id": "titre-{{add @index 1}}",
       "nom": "{{random 'Ticket' 'Pass' 'Abonnement' 'Carnet'}} {{random '1 voyage' '10 voyages' '24 h' '7 jours' 'mensuel' 'annuel'}}",
