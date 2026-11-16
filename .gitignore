@@ -65,3 +65,5 @@ desktop.ini
 # Rapport Eco Index
 /*.html
 *.xlsx
+# Rapports GreenIT
+/rapports/

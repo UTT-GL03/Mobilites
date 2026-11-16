@@ -26,9 +26,24 @@ jobs:
       - name: Start frontend
         run: |
           docker compose up --detach
+      - name: Install GreenIT Analysis CLI
+        run: |
+          wget https://github.com/cnumr/GreenIT-Analysis-cli/archive/refs/heads/master.zip
+          unzip master.zip
+          cd GreenIT-Analysis-cli-master
+          npm install
+          npm link
       - name: Wait for frontend
         uses: docker://benel/wait-for-response:1
         with:
           args: http://localhost/ 200 30000 500
-      - name: Watch frontend initial payload
-        run: curl --silent localhost
+      - name: Run GreenIT Analysis CLI
+        run: |
+          mkdir -p rapports
+          greenit analyse --ci scenarios/consulter_horaires.yml rapports/horaires.html
+          greenit analyse --ci scenarios/consulter_perturbations.yml rapports/perturbations.html
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: EcoIndex
+          path: rapports/
