@@ -54,9 +54,9 @@ Nous avons choisi de comparer l'impact des scénarios sur les services d'opérat
 
 | Service                             | Score (sur 100) | Classe | Détail des mesures                  |
 | ----------------------------------- | --------------- | ------ | ----------------------------------- |
-| TCAT                                | 42              | D      | […](Benchmark/tcat.md)              |
-| Île-de-France Mobilités             | 45              | D      | […](Benchmark/idfm.md)              |
-| CityMapper (à titre de comparaison) | 31              | E      | […](Benchmark/citymapper.md)        |
+| TCAT                                | 42              | D      | […](benchmark/tcat.md)              |
+| Île-de-France Mobilités             | 45              | D      | […](benchmark/idfm.md)              |
+| CityMapper (à titre de comparaison) | 31              | E      | […](benchmark/citymapper.md)        |
 
 Les mesures de l'impact moyen de ces services (cf. Tab.1) révèlent des classes EcoIndex moyennes (D) pour les deux opérateurs publics, et faibles (E) pour CityMapper.  
 

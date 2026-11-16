@@ -4,17 +4,77 @@
       "id": "1",
       "nom": "Ligne 1",
       "arrets": [
-        { "nom": "Gare", "passages": ["07:00", "07:30", "08:00"] },
-        { "nom": "Hôtel de Ville", "passages": ["07:06", "07:36", "08:06"] },
-        { "nom": "Université", "passages": ["07:15", "07:45", "08:15"] }
+        {
+          "nom": "Boulevard Voltaire",
+          "passages": [
+            "06:00",
+            "07:00",
+            "08:00"
+          ]
+        },
+        {
+          "nom": "Quai de la Gare",
+          "passages": [
+            "06:06",
+            "07:06",
+            "08:06"
+          ]
+        },
+        {
+          "nom": "Place Jules Ferry",
+          "passages": [
+            "06:12",
+            "07:12",
+            "08:12"
+          ]
+        },
+        {
+          "nom": "Quai Victor Hugo",
+          "passages": [
+            "06:18",
+            "07:18",
+            "08:18"
+          ]
+        },
+        {
+          "nom": "Boulevard de la République",
+          "passages": [
+            "06:24",
+            "07:24",
+            "08:24"
+          ]
+        },
+        {
+          "nom": "Place Jean Jaurès",
+          "passages": [
+            "06:30",
+            "07:30",
+            "08:30"
+          ]
+        },
+        {
+          "nom": "Boulevard des Lilas",
+          "passages": [
+            "06:36",
+            "07:36",
+            "08:36"
+          ]
+        }
       ],
       "perturbations": [
         {
           "id": 101,
-          "titre": "Travaux rue Émile Zola",
-          "description": "Arrêt Hôtel de Ville non desservi.",
-          "debut": "2026-11-01",
-          "fin": "2026-11-20"
+          "titre": "Accident rue Émile Zola",
+          "description": "Mi est accumsan ipsum rhoncus, pulvinar et consectetur sagittis magna, cras etiam at tincidunt massa. Iaculis proin metus.",
+          "debut": "2026-11-29",
+          "fin": "2027-01-23"
+        },
+        {
+          "id": 102,
+          "titre": "Arrêt non desservi boulevard Gambetta",
+          "description": "A porttitor viverra vulputate ante. Vulputate tristique ultricies ex.",
+          "debut": "2026-11-12",
+          "fin": "2027-01-02"
         }
       ]
     },
@@ -22,17 +82,86 @@
       "id": "2",
       "nom": "Ligne 2",
       "arrets": [
-        { "nom": "Halles", "passages": ["06:45", "07:15", "07:45"] },
-        { "nom": "Boulevard Gambetta", "passages": ["06:52", "07:22", "07:52"] },
-        { "nom": "Hôpital", "passages": ["07:03", "07:33", "08:03"] }
+        {
+          "nom": "Quai Saint-Pierre",
+          "passages": [
+            "06:00",
+            "07:00",
+            "08:00"
+          ]
+        },
+        {
+          "nom": "Place Gambetta",
+          "passages": [
+            "06:06",
+            "07:06",
+            "08:06"
+          ]
+        },
+        {
+          "nom": "Avenue Marie Curie",
+          "passages": [
+            "06:12",
+            "07:12",
+            "08:12"
+          ]
+        },
+        {
+          "nom": "Quai du Marché",
+          "passages": [
+            "06:18",
+            "07:18",
+            "08:18"
+          ]
+        },
+        {
+          "nom": "Rue du Marché",
+          "passages": [
+            "06:24",
+            "07:24",
+            "08:24"
+          ]
+        },
+        {
+          "nom": "Quai de la Gare",
+          "passages": [
+            "06:30",
+            "07:30",
+            "08:30"
+          ]
+        },
+        {
+          "nom": "Boulevard Victor Hugo",
+          "passages": [
+            "06:36",
+            "07:36",
+            "08:36"
+          ]
+        },
+        {
+          "nom": "Boulevard Gambetta",
+          "passages": [
+            "06:42",
+            "07:42",
+            "08:42"
+          ]
+        },
+        {
+          "nom": "Place Marie Curie",
+          "passages": [
+            "06:48",
+            "07:48",
+            "08:48"
+          ]
+        }
       ],
       "perturbations": [
         {
           "id": 201,
-          "titre": "Marché de Noël",
-          "description": "Déviation par le boulevard Gambetta.",
-          "debut": "2026-11-28",
-          "fin": "2026-12-24"
+          "titre": "Manifestation rue Émile Zola",
+          "description": "Rhoncus aenean neque tortor it lacinia. Rhoncus proin risus pulvinar scelerisque morbi, tempor risus in pretium au, mi dignissim vitae.",
+          "debut": "2026-11-29",
+          "fin": "2027-01-22"
         }
       ]
     },
@@ -40,48 +169,758 @@
       "id": "3",
       "nom": "Ligne 3",
       "arrets": [
-        { "nom": "Centre commercial", "passages": ["08:00", "09:00", "10:00"] },
-        { "nom": "Stade", "passages": ["08:10", "09:10", "10:10"] }
+        {
+          "nom": "Avenue des Lilas",
+          "passages": [
+            "06:00",
+            "07:00",
+            "08:00"
+          ]
+        },
+        {
+          "nom": "Rue Clemenceau",
+          "passages": [
+            "06:06",
+            "07:06",
+            "08:06"
+          ]
+        },
+        {
+          "nom": "Quai Jean Jaurès",
+          "passages": [
+            "06:12",
+            "07:12",
+            "08:12"
+          ]
+        },
+        {
+          "nom": "Rue des Lilas",
+          "passages": [
+            "06:18",
+            "07:18",
+            "08:18"
+          ]
+        },
+        {
+          "nom": "Place du Marché",
+          "passages": [
+            "06:24",
+            "07:24",
+            "08:24"
+          ]
+        },
+        {
+          "nom": "Place Jean Jaurès",
+          "passages": [
+            "06:30",
+            "07:30",
+            "08:30"
+          ]
+        },
+        {
+          "nom": "Avenue Clemenceau",
+          "passages": [
+            "06:36",
+            "07:36",
+            "08:36"
+          ]
+        }
       ],
-      "perturbations": []
+      "perturbations": [
+        {
+          "id": 301,
+          "titre": "Travaux avenue Pasteur",
+          "description": "Tem donec donec hendrerit aliquam finibus. Sed vulputate magna imperdiet.",
+          "debut": "2026-11-04",
+          "fin": "2027-01-17"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "nom": "Ligne 4",
+      "arrets": [
+        {
+          "nom": "Place Jules Ferry",
+          "passages": [
+            "06:00",
+            "07:00",
+            "08:00"
+          ]
+        },
+        {
+          "nom": "Boulevard Marie Curie",
+          "passages": [
+            "06:06",
+            "07:06",
+            "08:06"
+          ]
+        },
+        {
+          "nom": "Place Victor Hugo",
+          "passages": [
+            "06:12",
+            "07:12",
+            "08:12"
+          ]
+        },
+        {
+          "nom": "Rue Pasteur",
+          "passages": [
+            "06:18",
+            "07:18",
+            "08:18"
+          ]
+        },
+        {
+          "nom": "Boulevard Émile Zola",
+          "passages": [
+            "06:24",
+            "07:24",
+            "08:24"
+          ]
+        },
+        {
+          "nom": "Boulevard de la République",
+          "passages": [
+            "06:30",
+            "07:30",
+            "08:30"
+          ]
+        },
+        {
+          "nom": "Avenue Gambetta",
+          "passages": [
+            "06:36",
+            "07:36",
+            "08:36"
+          ]
+        },
+        {
+          "nom": "Place Émile Zola",
+          "passages": [
+            "06:42",
+            "07:42",
+            "08:42"
+          ]
+        }
+      ],
+      "perturbations": [
+        {
+          "id": 401,
+          "titre": "Arrêt non desservi quai des Tanneurs",
+          "description": "Diam massa cursus vel eti eu laoreet el, en quis accumsan.",
+          "debut": "2026-11-24",
+          "fin": "2026-12-24"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "nom": "Ligne 5",
+      "arrets": [
+        {
+          "nom": "Quai Clemenceau",
+          "passages": [
+            "06:00",
+            "07:00",
+            "08:00"
+          ]
+        },
+        {
+          "nom": "Avenue Saint-Pierre",
+          "passages": [
+            "06:06",
+            "07:06",
+            "08:06"
+          ]
+        },
+        {
+          "nom": "Quai du Marché",
+          "passages": [
+            "06:12",
+            "07:12",
+            "08:12"
+          ]
+        },
+        {
+          "nom": "Boulevard Émile Zola",
+          "passages": [
+            "06:18",
+            "07:18",
+            "08:18"
+          ]
+        },
+        {
+          "nom": "Avenue du Marché",
+          "passages": [
+            "06:24",
+            "07:24",
+            "08:24"
+          ]
+        },
+        {
+          "nom": "Rue Gambetta",
+          "passages": [
+            "06:30",
+            "07:30",
+            "08:30"
+          ]
+        },
+        {
+          "nom": "Boulevard Gambetta",
+          "passages": [
+            "06:36",
+            "07:36",
+            "08:36"
+          ]
+        }
+      ],
+      "perturbations": [
+        {
+          "id": 501,
+          "titre": "Arrêt non desservi rue Émile Zola",
+          "description": "Enim commodo commodo ultrices auctor vitae faucibus. Eti enim aenean orci.",
+          "debut": "2026-11-03",
+          "fin": "2027-01-17"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "nom": "Ligne 6",
+      "arrets": [
+        {
+          "nom": "Avenue Clemenceau",
+          "passages": [
+            "06:00",
+            "07:00",
+            "08:00"
+          ]
+        },
+        {
+          "nom": "Place Jean Jaurès",
+          "passages": [
+            "06:06",
+            "07:06",
+            "08:06"
+          ]
+        },
+        {
+          "nom": "Rue Saint-Pierre",
+          "passages": [
+            "06:12",
+            "07:12",
+            "08:12"
+          ]
+        },
+        {
+          "nom": "Avenue de la Gare",
+          "passages": [
+            "06:18",
+            "07:18",
+            "08:18"
+          ]
+        },
+        {
+          "nom": "Rue Clemenceau",
+          "passages": [
+            "06:24",
+            "07:24",
+            "08:24"
+          ]
+        }
+      ],
+      "perturbations": [
+        {
+          "id": 601,
+          "titre": "Accident rue Émile Zola",
+          "description": "Pharetra au imperdiet elementum suscipit adipiscing, natoque ipsum au porttitor. Dignissim accumsan e aliquet, quis accumsan aliquam lacus auctor sit.",
+          "debut": "2026-11-06",
+          "fin": "2027-01-21"
+        },
+        {
+          "id": 602,
+          "titre": "Arrêt non desservi rue Victor Hugo",
+          "description": "U massa aenean lacus maecenas vestibulum. Vel risus leo a. Pulvinar non nisl viverra. Commodo enim lum sagittis proin.",
+          "debut": "2026-11-08",
+          "fin": "2026-12-19"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "nom": "Ligne 7",
+      "arrets": [
+        {
+          "nom": "Place de la République",
+          "passages": [
+            "06:00",
+            "07:00",
+            "08:00"
+          ]
+        },
+        {
+          "nom": "Avenue Émile Zola",
+          "passages": [
+            "06:06",
+            "07:06",
+            "08:06"
+          ]
+        },
+        {
+          "nom": "Rue Émile Zola",
+          "passages": [
+            "06:12",
+            "07:12",
+            "08:12"
+          ]
+        },
+        {
+          "nom": "Boulevard des Lilas",
+          "passages": [
+            "06:18",
+            "07:18",
+            "08:18"
+          ]
+        },
+        {
+          "nom": "Boulevard des Tanneurs",
+          "passages": [
+            "06:24",
+            "07:24",
+            "08:24"
+          ]
+        }
+      ],
+      "perturbations": [
+        {
+          "id": 701,
+          "titre": "Déviation rue Victor Hugo",
+          "description": "Dignissim proin augue au viverra mattis ultricies suscipit, dolor quisque nulla e.",
+          "debut": "2026-11-28",
+          "fin": "2027-01-17"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "nom": "Ligne 8",
+      "arrets": [
+        {
+          "nom": "Avenue de la République",
+          "passages": [
+            "06:00",
+            "07:00",
+            "08:00"
+          ]
+        },
+        {
+          "nom": "Quai Jules Ferry",
+          "passages": [
+            "06:06",
+            "07:06",
+            "08:06"
+          ]
+        },
+        {
+          "nom": "Place Marie Curie",
+          "passages": [
+            "06:12",
+            "07:12",
+            "08:12"
+          ]
+        },
+        {
+          "nom": "Place Gambetta",
+          "passages": [
+            "06:18",
+            "07:18",
+            "08:18"
+          ]
+        },
+        {
+          "nom": "Rue Voltaire",
+          "passages": [
+            "06:24",
+            "07:24",
+            "08:24"
+          ]
+        },
+        {
+          "nom": "Boulevard Marie Curie",
+          "passages": [
+            "06:30",
+            "07:30",
+            "08:30"
+          ]
+        },
+        {
+          "nom": "Boulevard des Tanneurs",
+          "passages": [
+            "06:36",
+            "07:36",
+            "08:36"
+          ]
+        }
+      ],
+      "perturbations": [
+        {
+          "id": 801,
+          "titre": "Déviation quai des Tanneurs",
+          "description": "Justo dictum vestibulum maecenas suscipit aliquam euismod.",
+          "debut": "2026-11-13",
+          "fin": "2026-12-03"
+        },
+        {
+          "id": 802,
+          "titre": "Manifestation rue Émile Zola",
+          "description": "En au quisque morbi lacinia. Lorem ornare arcu lobortis lorem metus.",
+          "debut": "2026-11-13",
+          "fin": "2027-01-06"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "nom": "Ligne 9",
+      "arrets": [
+        {
+          "nom": "Quai Victor Hugo",
+          "passages": [
+            "06:00",
+            "07:00",
+            "08:00"
+          ]
+        },
+        {
+          "nom": "Place de la Gare",
+          "passages": [
+            "06:06",
+            "07:06",
+            "08:06"
+          ]
+        },
+        {
+          "nom": "Quai Marie Curie",
+          "passages": [
+            "06:12",
+            "07:12",
+            "08:12"
+          ]
+        },
+        {
+          "nom": "Place du Marché",
+          "passages": [
+            "06:18",
+            "07:18",
+            "08:18"
+          ]
+        },
+        {
+          "nom": "Boulevard Émile Zola",
+          "passages": [
+            "06:24",
+            "07:24",
+            "08:24"
+          ]
+        },
+        {
+          "nom": "Avenue Voltaire",
+          "passages": [
+            "06:30",
+            "07:30",
+            "08:30"
+          ]
+        },
+        {
+          "nom": "Rue Jules Ferry",
+          "passages": [
+            "06:36",
+            "07:36",
+            "08:36"
+          ]
+        },
+        {
+          "nom": "Quai Jules Ferry",
+          "passages": [
+            "06:42",
+            "07:42",
+            "08:42"
+          ]
+        }
+      ],
+      "perturbations": [
+        {
+          "id": 901,
+          "titre": "Travaux place de la République",
+          "description": "At u vel lacus ali euismod non. Au purus elit purus dignissim imperdiet cras.",
+          "debut": "2026-11-06",
+          "fin": "2027-01-04"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "nom": "Ligne 10",
+      "arrets": [
+        {
+          "nom": "Rue Pasteur",
+          "passages": [
+            "06:00",
+            "07:00",
+            "08:00"
+          ]
+        },
+        {
+          "nom": "Boulevard Saint-Pierre",
+          "passages": [
+            "06:06",
+            "07:06",
+            "08:06"
+          ]
+        },
+        {
+          "nom": "Boulevard Jean Jaurès",
+          "passages": [
+            "06:12",
+            "07:12",
+            "08:12"
+          ]
+        },
+        {
+          "nom": "Boulevard des Tanneurs",
+          "passages": [
+            "06:18",
+            "07:18",
+            "08:18"
+          ]
+        },
+        {
+          "nom": "Place Jules Ferry",
+          "passages": [
+            "06:24",
+            "07:24",
+            "08:24"
+          ]
+        },
+        {
+          "nom": "Boulevard des Tanneurs",
+          "passages": [
+            "06:30",
+            "07:30",
+            "08:30"
+          ]
+        },
+        {
+          "nom": "Avenue Clemenceau",
+          "passages": [
+            "06:36",
+            "07:36",
+            "08:36"
+          ]
+        }
+      ],
+      "perturbations": [
+      ]
+    },
+    {
+      "id": "11",
+      "nom": "Ligne 11",
+      "arrets": [
+        {
+          "nom": "Boulevard Gambetta",
+          "passages": [
+            "06:00",
+            "07:00",
+            "08:00"
+          ]
+        },
+        {
+          "nom": "Rue du Marché",
+          "passages": [
+            "06:06",
+            "07:06",
+            "08:06"
+          ]
+        },
+        {
+          "nom": "Boulevard Victor Hugo",
+          "passages": [
+            "06:12",
+            "07:12",
+            "08:12"
+          ]
+        },
+        {
+          "nom": "Rue Saint-Pierre",
+          "passages": [
+            "06:18",
+            "07:18",
+            "08:18"
+          ]
+        }
+      ],
+      "perturbations": [
+        {
+          "id": 1101,
+          "titre": "Déviation quai des Tanneurs",
+          "description": "Felis auctor pretium lacinia lorem. Nibh euismod lectus cit ultricies imperdiet quis. Tortor lobortis nisi elementum lobortis e.",
+          "debut": "2026-11-26",
+          "fin": "2026-12-19"
+        },
+        {
+          "id": 1102,
+          "titre": "Arrêt non desservi rue Émile Zola",
+          "description": "Purus curabitur diam mi ante augue turpis. Tempus aliquet non tempor aenean aenean.",
+          "debut": "2026-11-21",
+          "fin": "2027-01-26"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "nom": "Ligne 12",
+      "arrets": [
+        {
+          "nom": "Rue Voltaire",
+          "passages": [
+            "06:00",
+            "07:00",
+            "08:00"
+          ]
+        },
+        {
+          "nom": "Rue Marie Curie",
+          "passages": [
+            "06:06",
+            "07:06",
+            "08:06"
+          ]
+        },
+        {
+          "nom": "Quai Jean Jaurès",
+          "passages": [
+            "06:12",
+            "07:12",
+            "08:12"
+          ]
+        },
+        {
+          "nom": "Boulevard Marie Curie",
+          "passages": [
+            "06:18",
+            "07:18",
+            "08:18"
+          ]
+        },
+        {
+          "nom": "Quai Victor Hugo",
+          "passages": [
+            "06:24",
+            "07:24",
+            "08:24"
+          ]
+        },
+        {
+          "nom": "Avenue du Marché",
+          "passages": [
+            "06:30",
+            "07:30",
+            "08:30"
+          ]
+        },
+        {
+          "nom": "Place Marie Curie",
+          "passages": [
+            "06:36",
+            "07:36",
+            "08:36"
+          ]
+        },
+        {
+          "nom": "Rue Gambetta",
+          "passages": [
+            "06:42",
+            "07:42",
+            "08:42"
+          ]
+        },
+        {
+          "nom": "Quai de la République",
+          "passages": [
+            "06:48",
+            "07:48",
+            "08:48"
+          ]
+        }
+      ],
+      "perturbations": [
+        {
+          "id": 1201,
+          "titre": "Manifestation quai des Tanneurs",
+          "description": "Pretium pulvinar vehicula at aliquam mollis curabitur tempus maecenas lacus mi bibendum neque elit non dictum, auctor ante orci.",
+          "debut": "2026-11-27",
+          "fin": "2027-01-05"
+        }
+      ]
     }
   ],
   "titres": [
     {
-      "id": "ticket-unite",
-      "nom": "Ticket 1 voyage",
-      "description": "Valable 1 h, correspondances comprises.",
-      "prix": 1.5
+      "id": "titre-1",
+      "nom": "Ticket 7 jours",
+      "description": "Fringilla pellentesque dolor scelerisque commodo purus. En magna arcu.",
+      "prix": 18.02
     },
     {
-      "id": "carnet-10",
-      "nom": "Carnet 10 voyages",
-      "description": "Dix tickets à utiliser quand vous voulez.",
-      "prix": 13
+      "id": "titre-2",
+      "nom": "Ticket annuel",
+      "description": "Sagittis adipiscing condimentum dui consequat elementum.",
+      "prix": 25.21
     },
     {
-      "id": "pass-24h",
-      "nom": "Pass 24 heures",
-      "description": "Voyages illimités pendant 24 h.",
-      "prix": 4.5
+      "id": "titre-3",
+      "nom": "Abonnement 24 h",
+      "description": "Iaculis hendrerit scelerisque proin maximus ipsum euismod auctor, sapien metus faucibus placerat.",
+      "prix": 11.75
     },
     {
-      "id": "abonnement-mensuel",
-      "nom": "Abonnement mensuel",
-      "description": "Voyages illimités pendant un mois.",
-      "prix": 40
+      "id": "titre-4",
+      "nom": "Pass 7 jours",
+      "description": "Vel lectus tempus tortor elit, au magna au consectetur ultricies curabitur turpis. Pharetra sed cursus.",
+      "prix": 3.37
     },
     {
-      "id": "abonnement-jeune",
-      "nom": "Abonnement -26 ans",
-      "description": "Mensuel à tarif réduit pour les moins de 26 ans.",
-      "prix": 25
+      "id": "titre-5",
+      "nom": "Ticket 10 voyages",
+      "description": "Vehicula erat felis ultrices mollis viverra el felis. Et sit dignissim eget it en.",
+      "prix": 45.94
     },
     {
-      "id": "abonnement-annuel",
+      "id": "titre-6",
+      "nom": "Ticket 24 h",
+      "description": "Quis sagittis viverra condimentum tempus nibh justo id.",
+      "prix": 17.38
+    },
+    {
+      "id": "titre-7",
       "nom": "Abonnement annuel",
-      "description": "Voyages illimités pendant un an.",
-      "prix": 400
+      "description": "At faucibus condimentum dui elementum nulla condimentum est accumsan.",
+      "prix": 7.54
+    },
+    {
+      "id": "titre-8",
+      "nom": "Pass 10 voyages",
+      "description": "Lobortis ac nunc vehicula scelerisque ultricies nibh.",
+      "prix": 37.69
+    },
+    {
+      "id": "titre-9",
+      "nom": "Carnet 7 jours",
+      "description": "Accumsan lacinia nunc mattis facilisis au lectus.",
+      "prix": 53.09
     }
   ]
 }
+

@@ -1,0 +1,565 @@
+{
+  "lignes": [
+    {
+      "id": "1",
+      "nom": "Ligne 1",
+      "arrets": [
+        {
+          "nom": "Quai Voltaire",
+          "passages": [
+            "06:00",
+            "07:00",
+            "08:00"
+          ]
+        },
+        {
+          "nom": "Boulevard Marie Curie",
+          "passages": [
+            "06:06",
+            "07:06",
+            "08:06"
+          ]
+        },
+        {
+          "nom": "Quai Clemenceau",
+          "passages": [
+            "06:12",
+            "07:12",
+            "08:12"
+          ]
+        },
+        {
+          "nom": "Place Victor Hugo",
+          "passages": [
+            "06:18",
+            "07:18",
+            "08:18"
+          ]
+        },
+        {
+          "nom": "Rue Jules Ferry",
+          "passages": [
+            "06:24",
+            "07:24",
+            "08:24"
+          ]
+        },
+        {
+          "nom": "Boulevard Saint-Pierre",
+          "passages": [
+            "06:30",
+            "07:30",
+            "08:30"
+          ]
+        },
+        {
+          "nom": "Boulevard Victor Hugo",
+          "passages": [
+            "06:36",
+            "07:36",
+            "08:36"
+          ]
+        },
+        {
+          "nom": "Boulevard Pasteur",
+          "passages": [
+            "06:42",
+            "07:42",
+            "08:42"
+          ]
+        },
+        {
+          "nom": "Avenue Saint-Pierre",
+          "passages": [
+            "06:48",
+            "07:48",
+            "08:48"
+          ]
+        }
+      ],
+      "perturbations": [
+      ]
+    },
+    {
+      "id": "2",
+      "nom": "Ligne 2",
+      "arrets": [
+        {
+          "nom": "Quai Gambetta",
+          "passages": [
+            "06:00",
+            "07:00",
+            "08:00"
+          ]
+        },
+        {
+          "nom": "Rue Jules Ferry",
+          "passages": [
+            "06:06",
+            "07:06",
+            "08:06"
+          ]
+        },
+        {
+          "nom": "Rue Marie Curie",
+          "passages": [
+            "06:12",
+            "07:12",
+            "08:12"
+          ]
+        },
+        {
+          "nom": "Quai Saint-Pierre",
+          "passages": [
+            "06:18",
+            "07:18",
+            "08:18"
+          ]
+        },
+        {
+          "nom": "Avenue Marie Curie",
+          "passages": [
+            "06:24",
+            "07:24",
+            "08:24"
+          ]
+        }
+      ],
+      "perturbations": [
+        {
+          "id": 201,
+          "titre": "Déviation avenue Pasteur",
+          "description": "Hendrerit cras vehicula massa tempor proin maximus velit scelerisque, elit ali sagittis eget risus. Ex vitae mattis.",
+          "debut": "2026-11-09",
+          "fin": "2027-01-06"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "nom": "Ligne 3",
+      "arrets": [
+        {
+          "nom": "Rue Victor Hugo",
+          "passages": [
+            "06:00",
+            "07:00",
+            "08:00"
+          ]
+        },
+        {
+          "nom": "Boulevard de la République",
+          "passages": [
+            "06:06",
+            "07:06",
+            "08:06"
+          ]
+        },
+        {
+          "nom": "Place Jean Jaurès",
+          "passages": [
+            "06:12",
+            "07:12",
+            "08:12"
+          ]
+        },
+        {
+          "nom": "Quai Voltaire",
+          "passages": [
+            "06:18",
+            "07:18",
+            "08:18"
+          ]
+        },
+        {
+          "nom": "Rue des Lilas",
+          "passages": [
+            "06:24",
+            "07:24",
+            "08:24"
+          ]
+        },
+        {
+          "nom": "Place des Lilas",
+          "passages": [
+            "06:30",
+            "07:30",
+            "08:30"
+          ]
+        },
+        {
+          "nom": "Rue Saint-Pierre",
+          "passages": [
+            "06:36",
+            "07:36",
+            "08:36"
+          ]
+        },
+        {
+          "nom": "Place Gambetta",
+          "passages": [
+            "06:42",
+            "07:42",
+            "08:42"
+          ]
+        }
+      ],
+      "perturbations": [
+        {
+          "id": 301,
+          "titre": "Travaux avenue Pasteur",
+          "description": "Ipsum in aenean maecenas cit nibh ligula proin proin facilisis bibendum at.",
+          "debut": "2026-11-19",
+          "fin": "2027-01-17"
+        },
+        {
+          "id": 302,
+          "titre": "Arrêt non desservi avenue Pasteur",
+          "description": "Ligula pharetra etiam aliquam vestibulum sollicitudin. At nibh elit eti, lacinia lacinia eros pharetra.",
+          "debut": "2026-11-17",
+          "fin": "2026-12-13"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "nom": "Ligne 4",
+      "arrets": [
+        {
+          "nom": "Quai de la République",
+          "passages": [
+            "06:00",
+            "07:00",
+            "08:00"
+          ]
+        },
+        {
+          "nom": "Place de la République",
+          "passages": [
+            "06:06",
+            "07:06",
+            "08:06"
+          ]
+        },
+        {
+          "nom": "Avenue Gambetta",
+          "passages": [
+            "06:12",
+            "07:12",
+            "08:12"
+          ]
+        },
+        {
+          "nom": "Rue Marie Curie",
+          "passages": [
+            "06:18",
+            "07:18",
+            "08:18"
+          ]
+        },
+        {
+          "nom": "Rue du Marché",
+          "passages": [
+            "06:24",
+            "07:24",
+            "08:24"
+          ]
+        },
+        {
+          "nom": "Place Émile Zola",
+          "passages": [
+            "06:30",
+            "07:30",
+            "08:30"
+          ]
+        }
+      ],
+      "perturbations": [
+        {
+          "id": 401,
+          "titre": "Accident avenue Pasteur",
+          "description": "Viverra ante elementum at it eti.",
+          "debut": "2026-11-14",
+          "fin": "2026-12-08"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "nom": "Ligne 5",
+      "arrets": [
+        {
+          "nom": "Quai Voltaire",
+          "passages": [
+            "06:00",
+            "07:00",
+            "08:00"
+          ]
+        },
+        {
+          "nom": "Boulevard Jules Ferry",
+          "passages": [
+            "06:06",
+            "07:06",
+            "08:06"
+          ]
+        },
+        {
+          "nom": "Boulevard de la République",
+          "passages": [
+            "06:12",
+            "07:12",
+            "08:12"
+          ]
+        },
+        {
+          "nom": "Quai des Tanneurs",
+          "passages": [
+            "06:18",
+            "07:18",
+            "08:18"
+          ]
+        },
+        {
+          "nom": "Avenue Jules Ferry",
+          "passages": [
+            "06:24",
+            "07:24",
+            "08:24"
+          ]
+        },
+        {
+          "nom": "Avenue des Lilas",
+          "passages": [
+            "06:30",
+            "07:30",
+            "08:30"
+          ]
+        },
+        {
+          "nom": "Quai Clemenceau",
+          "passages": [
+            "06:36",
+            "07:36",
+            "08:36"
+          ]
+        },
+        {
+          "nom": "Rue de la Gare",
+          "passages": [
+            "06:42",
+            "07:42",
+            "08:42"
+          ]
+        },
+        {
+          "nom": "Boulevard Clemenceau",
+          "passages": [
+            "06:48",
+            "07:48",
+            "08:48"
+          ]
+        }
+      ],
+      "perturbations": [
+        {
+          "id": 501,
+          "titre": "Manifestation boulevard Gambetta",
+          "description": "Lum at morbi viverra turpis vestibulum. Porttitor ac metus lacinia curabitur condimentum.",
+          "debut": "2026-11-27",
+          "fin": "2027-01-20"
+        },
+        {
+          "id": 502,
+          "titre": "Déviation quai des Tanneurs",
+          "description": "Nunc felis cit metus purus lectus maximus mauris ligula turpis blandit. Porttitor augue tristique faucibus consectetur rhoncus, au arcu eti.",
+          "debut": "2026-11-09",
+          "fin": "2026-12-09"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "nom": "Ligne 6",
+      "arrets": [
+        {
+          "nom": "Rue des Tanneurs",
+          "passages": [
+            "06:00",
+            "07:00",
+            "08:00"
+          ]
+        },
+        {
+          "nom": "Avenue Jean Jaurès",
+          "passages": [
+            "06:06",
+            "07:06",
+            "08:06"
+          ]
+        },
+        {
+          "nom": "Boulevard des Tanneurs",
+          "passages": [
+            "06:12",
+            "07:12",
+            "08:12"
+          ]
+        },
+        {
+          "nom": "Avenue du Marché",
+          "passages": [
+            "06:18",
+            "07:18",
+            "08:18"
+          ]
+        },
+        {
+          "nom": "Place Jules Ferry",
+          "passages": [
+            "06:24",
+            "07:24",
+            "08:24"
+          ]
+        },
+        {
+          "nom": "Boulevard de la Gare",
+          "passages": [
+            "06:30",
+            "07:30",
+            "08:30"
+          ]
+        },
+        {
+          "nom": "Boulevard Saint-Pierre",
+          "passages": [
+            "06:36",
+            "07:36",
+            "08:36"
+          ]
+        }
+      ],
+      "perturbations": [
+        {
+          "id": 601,
+          "titre": "Manifestation boulevard Gambetta",
+          "description": "Et sagittis risus vulputate purus. Accumsan lacinia nam au suscipit suscipit, lacus sagittis cursus.",
+          "debut": "2026-11-25",
+          "fin": "2026-12-03"
+        },
+        {
+          "id": 602,
+          "titre": "Manifestation boulevard Gambetta",
+          "description": "Commodo ipsum ornare aliquet eget ac vitae.",
+          "debut": "2026-11-13",
+          "fin": "2026-12-12"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "nom": "Ligne 7",
+      "arrets": [
+        {
+          "nom": "Rue Jules Ferry",
+          "passages": [
+            "06:00",
+            "07:00",
+            "08:00"
+          ]
+        },
+        {
+          "nom": "Rue de la République",
+          "passages": [
+            "06:06",
+            "07:06",
+            "08:06"
+          ]
+        },
+        {
+          "nom": "Avenue Jean Jaurès",
+          "passages": [
+            "06:12",
+            "07:12",
+            "08:12"
+          ]
+        },
+        {
+          "nom": "Avenue de la Gare",
+          "passages": [
+            "06:18",
+            "07:18",
+            "08:18"
+          ]
+        },
+        {
+          "nom": "Place Clemenceau",
+          "passages": [
+            "06:24",
+            "07:24",
+            "08:24"
+          ]
+        },
+        {
+          "nom": "Avenue Jean Jaurès",
+          "passages": [
+            "06:30",
+            "07:30",
+            "08:30"
+          ]
+        },
+        {
+          "nom": "Place Victor Hugo",
+          "passages": [
+            "06:36",
+            "07:36",
+            "08:36"
+          ]
+        }
+      ],
+      "perturbations": [
+        {
+          "id": 701,
+          "titre": "Arrêt non desservi place de la République",
+          "description": "Morbi cras et e aliquet. Est ante bibendum nisl aliquet mattis tortor finibus sapien nibh commodo tem.",
+          "debut": "2026-11-18",
+          "fin": "2027-01-01"
+        },
+        {
+          "id": 702,
+          "titre": "Arrêt non desservi avenue Pasteur",
+          "description": "Ac scelerisque maximus en lacus mauris tem. Orci posuere ligula vitae eros, iaculis quisque etiam sodales iaculis.",
+          "debut": "2026-11-14",
+          "fin": "2026-12-31"
+        }
+      ]
+    }
+  ],
+  "titres": [
+    {
+      "id": "titre-1",
+      "nom": "Pass 10 voyages",
+      "description": "Enim tempus ante aliquam dictum auctor. Arcu finibus commodo lum. Amet cursus o ornare.",
+      "prix": 19.40
+    },
+    {
+      "id": "titre-2",
+      "nom": "Abonnement 1 voyage",
+      "description": "Morbi ornare lacus velit curabitur maecenas, vitae porttitor ultricies.",
+      "prix": 6.17
+    },
+    {
+      "id": "titre-3",
+      "nom": "Pass 10 voyages",
+      "description": "Blandit aenean elit erat nibh sagittis elit commodo non lum.",
+      "prix": 38.12
+    },
+    {
+      "id": "titre-4",
+      "nom": "Carnet 1 voyage",
+      "description": "Proin maecenas posuere consequat faucibus sollicitudin risus.",
+      "prix": 2.25
+    }
+  ]
+}
+

@@ -1,0 +1,47 @@
+{
+  "lignes": [
+    {{#repeat min=6 max=12}}
+    {{#with (add @index 1) as |numLigne|}}
+    {
+      "id": "{{numLigne}}",
+      "nom": "Ligne {{numLigne}}",
+      "arrets": [
+        {{#repeat min=4 max=9}}
+        {{#with (step 6) as |minutes|}}
+        {
+          "nom": "{{random 'Rue' 'Avenue' 'Place' 'Boulevard' 'Quai'}} {{random 'Victor Hugo' 'Jean Jaurès' 'Émile Zola' 'Pasteur' 'de la République' 'Gambetta' 'Voltaire' 'Jules Ferry' 'des Tanneurs' 'du Marché' 'de la Gare' 'Saint-Pierre' 'Clemenceau' 'des Lilas' 'Marie Curie'}}",
+          "passages": [
+            {{#repeat min=3 max=3}}
+            "{{int (add 6 @index) (add 6 @index) '00'}}:{{int minutes minutes '00'}}"
+            {{/repeat}}
+          ]
+        }
+        {{/with}}
+        {{/repeat}}
+      ],
+      "perturbations": [
+        {{#repeat min=0 max=2}}
+        {
+          "id": {{numLigne}}0{{add @index 1}},
+          "titre": "{{random 'Travaux' 'Manifestation' 'Accident' 'Déviation' 'Arrêt non desservi'}} {{random 'rue Victor Hugo' 'avenue Pasteur' 'place de la République' 'boulevard Gambetta' 'quai des Tanneurs' 'rue Émile Zola'}}",
+          "description": "{{lorem min=6 max=20}}",
+          "debut": "{{date '2026-11-01' '2026-11-30' 'YYYY-MM-DD'}}",
+          "fin": "{{date '2026-12-01' '2027-01-31' 'YYYY-MM-DD'}}"
+        }
+        {{/repeat}}
+      ]
+    }
+    {{/with}}
+    {{/repeat}}
+  ],
+  "titres": [
+    {{#repeat min=4 max=9}}
+    {
+      "id": "titre-{{add @index 1}}",
+      "nom": "{{random 'Ticket' 'Pass' 'Abonnement' 'Carnet'}} {{random '1 voyage' '10 voyages' '24 h' '7 jours' 'mensuel' 'annuel'}}",
+      "description": "{{lorem min=5 max=15}}",
+      "prix": {{float 1 60 '0.00'}}
+    }
+    {{/repeat}}
+  ]
+}
