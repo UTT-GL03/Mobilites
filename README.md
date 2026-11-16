@@ -160,6 +160,26 @@ Nous avons développé la page des lignes de bus (cf. Fig. 3) pour qu'elle affic
 ![Prototype de la page des lignes de bus](./docs/liste_lignes_screenshot.png)
 __Fig.3__: Prototype de la page des lignes de bus.
 
+Pour l'instant, nous avons choisi un *framework* de mise en page minimaliste ([*PicoCSS*](https://picocss.com)).
+Dans la suite du projet, nous verrons si l'impact environnemental du passage à un *framework* de mise en page plus puissant (comme [*Bootstrap*](https://getbootstrap.com)) est acceptable.
+
+De même, nous avons décidé, contrairement à l'ensemble des services concurrents, de ne pas inclure de contenu autre que la liste des lignes de bus dans cette page.
+Dans l'état actuel du prototype, il est possible d'avoir une première idée de l'impact environnemental du *frontend*.
+Bien entendu, il manque encore le chargement dynamique des données, mais nous pouvons déjà évaluer l'impact de l'affichage des données et du *framework* (au sens large : *React*, *PicoCSS*, *DayJS*).
+Cette évaluation de l'impact (cf. Tab.4) est déjà encourageante en mode "pré-production" mais encore plus en mode "développement".
+
+|   | EcoIndex| GES (gCO2e) | Taille du DOM | Requêtes | Taille de la page (ko)
+|---|--------:|------------:|--------------:|---------:|---------------------:
+| Mode "développement"  | 88 A 🟦 |  1,2 | 42 | 44 | 5455
+| Mode "pré-production" | 74 B 🟩 | 1,5 | 42 | 43 | 5451
+
+__Tab.4__: Évaluation de l'impact du prototype de la page d'accueil.
+
+### Pages des horaires
+
+Les pages des articles ont pour HTTP-URI `/horaires/{id}`.
+De même que précédemment, nous avons tenté d'implémenter cette page (cf. Fig. 4) conformément à ce que prévoyait la maquette.
+
 ### Automatisation 
 À la racine du projet exécuter la commande suivante pour générer le rapport d'impact écologique du premier scénario "Consulter les horaires: de passage d'une ligne de bus" :
 ```bash
