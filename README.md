@@ -104,7 +104,7 @@ La TCAT est financée par le financement public, les subventions ainsi que par l
 | Titre de transport 10 voyage | 11.50€  | 311
 
 ## Maquette de l'interface et échantillon de données
-
+### Maquettes
 Au vu des différents services comparés, des exigences environnementales exprimées plus haut et des scénarios retenus, nous avons défini pour notre prototype une maquette de l'interface et un échantillon de données réalistes.
 
 Les ressources Web possédant une représentation sur notre application seront au nombre de cinq :
@@ -117,5 +117,24 @@ Les ressources Web possédant une représentation sur notre application seront a
 
   ![Maquette des quatres premiers types de page](./docs/Mockup1.png)
   ![Maquette des trois derniers types de page](./docs/Mockup2.png)
-__Fig.1__: Maquette de l'interface du prototype : __a.__ page pour les titres titres de transports de l'utilisateur, __b.__ page de la boutique en ligne, __c.__ page de la liste des lignes de transport, __d.__ page des horaires de la ligne sélectionnée.
-__Fig.2__: Maquette de l'interface du prototype : __a.__ page des perturbations des lignes de transports, __b.__ page d'accueil, __c.__ page du panier de l'utilisateur.
+__Fig.1__: Maquette de l'interface du prototype :  
+__a.__ page pour les titres titres de transports de l'utilisateur,
+__b.__ page de la boutique en ligne, __c.__ page de la liste des lignes de transport,
+__d.__ page des horaires de la ligne sélectionnée.
+
+
+__Fig.2__: Maquette de l'interface du prototype :  
+__a.__ page des perturbations des lignes de transports,  
+__b.__ page d'accueil,  
+__c.__ page du panier de l'utilisateur.
+
+### Échantillon de données
+
+Pour concevoir l’interface sans dépendre d’une vraie base de données, nous avons généré un échantillon fictif avec `dummy-jsonù. Nous sommes partis du modèle prévu pour des articles de journaux, que nous avons adapté à notre domaine `(data/sample_data.hbs)`. Le modèle génère entre 6 et 12 lignes de bus avec chacune entre 4 et 9 arrêts, leurs horaires de passage, 0 à 2 perturbations par ligne, ainsi qu’une liste de titres de transport avec leur prix. L’échantillon est ensuite obtenu avec la commande 
+```bash
+npx dummy-json sample_data.hbs > src/assets/sample_data.json
+```
+
+Nous avons dû modifier le modèle plusieurs fois avant d’obtenir un résultat cohérent. Les horaires tirés au hasard n’avaient aucun sens dans un tableau de passages, nous les avons donc calculés : chaque arrêt est desservi 6 minutes après le précédent, à 6 h, 7 h et 8 h. De même, la date de fin d’une perturbation est toujours postérieure à sa date de début. Les noms de famille anglais fournis par dummy-json ont été remplacés par une liste de noms de rues françaises, et les prix ont été formatés à deux décimales. 
+
+Enfin, repeat ne permettant pas d’accéder au numéro de la ligne parente, nous l’avons mémorisé avec {{#with}} pour numéroter les perturbations.
