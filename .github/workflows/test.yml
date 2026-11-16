@@ -19,6 +19,9 @@ jobs:
         run: |
           cd frontend
           npm install
+      - name: Generate sample
+        run: |
+          npx --yes dummy-json data/sample_data.hbs > frontend/public/sample_data.json
       - name: Build frontend
         run: |
           cd frontend

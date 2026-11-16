@@ -67,3 +67,6 @@ desktop.ini
 *.xlsx
 # Rapports GreenIT
 /rapports/
+
+frontend/public/sample_data.json
+frontend/public/big_sample_data.json
