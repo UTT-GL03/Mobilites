@@ -153,7 +153,7 @@ Pour cette première version du prototype (`v1.0.0`) :
 
 Ce scénario nécessite de pouvoir naviguer entre deux types de page : la page qui liste les lignes de bus et la page qui affiche les horaires de la ligne  sélectionnée.
 
-### ¨Page des lignes de bus
+### Page des lignes de bus
 
 Nous avons développé la page des lignes de bus (cf. Fig. 3) pour qu'elle affiche l'échantillon de données sous une forme proche de ce que prévoyait la maquette.
 
@@ -170,15 +170,33 @@ Cette évaluation de l'impact (cf. Tab.4) est déjà encourageante en mode "pré
 
 |   | EcoIndex| GES (gCO2e) | Taille du DOM | Requêtes | Taille de la page (ko)
 |---|--------:|------------:|--------------:|---------:|---------------------:
-| Mode "développement"  | 88 A 🟦 |  1,2 | 42 | 44 | 5455
-| Mode "pré-production" | 74 B 🟩 | 1,5 | 42 | 43 | 5451
+| Mode "développement"  | 73 B 🟩 |  1,5 | 43 | 44 | 5729
+| Mode "pré-production" | 94 A 🟦 | 1,1 | 40 | 4 | 105
 
-__Tab.4__: Évaluation de l'impact du prototype de la page d'accueil.
+__Tab.4__: Évaluation de l'impact du prototype de la page des lignes de bus.
 
 ### Pages des horaires
 
 Les pages des articles ont pour HTTP-URI `/horaires/{id}`.
 De même que précédemment, nous avons tenté d'implémenter cette page (cf. Fig. 4) conformément à ce que prévoyait la maquette.
+
+![Prototype de la page d'un article](./docs/horaires_screenshot.png)
+__Fig.3__: Prototype de la page d'un article.
+
+Avec l'ajout de ce modèle de page et la mise en place de la navigation entre les deux modèles, il devient possible d'exécuter le scénario prioritaire complet et de mesurer son impact.
+
+|   | EcoIndex| GES (gCO2e) | Taille du DOM | Requêtes | Taille de la page (ko)
+|---|--------:|------------:|--------------:|---------:|---------------------:
+| 1. Consulter les lignes de bus 					   | 94 A 🟦 | 1,1 | 40 | 4 | 105
+| 2. Choisir une ligne et consulter ses horaires 			   | 93 A 🟦 | 1,1 |  50 | 4 | 105
+| 3. Revenir aux lignes de bus et les consulter	| 94 A 🟦 | 1,1 | 40 | 4 | 105
+| 4. Choisir et consulter les horaires d'une autre ligne 		| 94 A 🟦 |  1,1|  45 | 4 | 105
+
+__Tab.5__: Évaluation de l'impact du scénario "Consulter les horaires d'une ligne de bus" dans le prototype v1.0.0.
+
+Ces estimations bien qu'artificiellement basses (puisque les données sont chargées de manière statique) sont tout de même à comparer avec [celles des services concurrents](https://htmlpreview.github.io/?https://raw.githubusercontent.com/UTT-GL03/Mobilites/main/benchmark/tcat.md) vues précédemment.
+
+Si nous arrivons à maintenir les émissions en dessous de 1,2 g par page pour notre produit minimum viable, nous pouvons donc espérer proposer une alternative environ 2 fois moins impactante que les services existants (en incluant pourtant la participation au cycle de vie du terminal).
 
 ### Automatisation 
 À la racine du projet exécuter la commande suivante pour générer le rapport d'impact écologique du premier scénario "Consulter les horaires: de passage d'une ligne de bus" :
