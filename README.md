@@ -203,7 +203,7 @@ Si nous arrivons à maintenir les émissions en dessous de 1,2 g par page pour n
 Les pages des articles ont pour HTTP-URI `/perturbations/`.
 De même que précédemment, nous avons tenté d'implémenter cette page (cf. Fig. 5) conformément à ce que prévoyait la maquette.
 
-![Prototype de la page d'un article](./docs/pertrubations_screenshot.png)
+![Prototype de la page d'un article](./docs/perturbations_screenshot.png)
 __Fig.4__: Prototype de la page des horaires d'une ligne.
 
 Avec l'ajout de ce modèle de page et la mise en place de la navigation entre les deux modèles, il devient possible d'exécuter le second scénario prioritaire complet et de mesurer son impact.
