@@ -1,0 +1,21 @@
+# To be used with GreenIT Analysis CLI
+- name: Être informé des perturbations du trafic
+  url: http://localhost/
+  actions:
+    - name: Aller sur la page des perturbations
+      type: click
+      element: a[href="/perturbations"]
+      pageChange: true
+      waitForSelector: .filtre
+    - name: Consulter les perturbations en cours
+      type: scroll
+    - name: Afficher les perturbations à venir
+      type: click
+      element: input[value="a-venir"]
+    - name: Consulter les perturbations à venir
+      type: scroll
+    - name: Afficher les perturbations en cours
+      type: click
+      element: input[value="en-cours"]
+    - name: Consulter les perturbations en cours
+      type: scroll

@@ -1,0 +1,32 @@
+# To be used with GreenIT Analysis CLI
+- name: Consulter les horaires de passage d'une ligne de bus
+  url: http://localhost/
+  actions:
+    - name: Aller sur la page des horaires
+      type: click
+      element: a[href="/lignes"]
+      pageChange: true
+      waitForSelector: .grid
+    - name: Consulter les lignes
+      type: scroll
+    - name: Choisir une ligne
+      type: click
+      element: a[href="/ligne/1"]
+      pageChange: true
+      waitForSelector: table
+    - name: Consulter les horaires
+      type: scroll
+    - name: Retourner aux lignes
+      type: click
+      element: a[href="/lignes"]
+      pageChange: true
+      waitForSelector: .grid
+    - name: Consulter les lignes
+      type: scroll
+    - name: Choisir une autre ligne
+      type: click
+      element: a[href="/ligne/2"]
+      pageChange: true
+      waitForSelector: table
+    - name: Consulter les horaires
+      type: scroll

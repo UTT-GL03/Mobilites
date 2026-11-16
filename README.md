@@ -141,3 +141,14 @@ Nous avons dû modifier le modèle plusieurs fois avant d’obtenir un résultat
 Les noms de famille anglais fournis par dummy-json ont été remplacés par une liste de noms de rues françaises, et les prix ont été formatés à deux décimales. 
 
 Enfin, repeat ne permettant pas d’accéder au numéro de la ligne parente, nous l’avons mémorisé avec `{{#with}}` pour numéroter les perturbations.
+
+### Automatisation 
+À la racine du projet exécuter la commande suivante pour générer le rapport d'impact écologique du premier scénario "Consulter les horaires: de passage d'une ligne de bus" :
+```bash
+ greenit analyse scenarios/consulter_horaires.yml horaires.html --headless false 
+```
+
+Pour le second scénario "Être informé des perturbations du traffic", exécuter la commande suivante :
+```bash
+greenit analyse scenarios/consulter_perturbations.yml rapports/perturbations.html --headless false
+```

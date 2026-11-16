@@ -61,3 +61,7 @@ desktop.ini
 *.pem
 .vercel
 .netlify
+
+# Rapport Eco Index
+/*.html
+*.xlsx
