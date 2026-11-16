@@ -1,7 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import PerturbationFilter from "../components/Perturbations/PerturbationFilter";
 import LineList from "../components/Perturbations/LineList";
-import data from "../assets/sample_data.json";
 
 function correspondAuFiltre(perturbation, filtre) {
     const maintenant = new Date();
@@ -14,8 +13,17 @@ function correspondAuFiltre(perturbation, filtre) {
 
 export default function Perturbations() {
     const [filtre, setFiltre] = useState("en-cours");
+    const [lignes, setLignes] = useState([]);
 
-    const lignesFiltrees = data.lignes.map((ligne) => ({
+    useEffect(() => {
+        fetch("/sample_data.json")
+            .then((reponse) => reponse.json())
+            .then((data) => {
+                setLignes(data.lignes);
+            });
+    }, []);
+
+    const lignesFiltrees = lignes.map((ligne) => ({
         ...ligne,
         perturbations: ligne.perturbations.filter((p) =>
             correspondAuFiltre(p, filtre)

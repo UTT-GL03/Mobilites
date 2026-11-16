@@ -1,13 +1,25 @@
+import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router";
 import { CHEMINS } from "../chemins";
 import ScheduleTable from "../components/lignes/ScheduleTable";
-import data from "../assets/sample_data.json";
 
 export default function Ligne() {
     const { id } = useParams();
-    const ligne = data.lignes.find((l) => l.id === id);
+    const [ligne, setLigne] = useState(undefined);
 
-    if (!ligne) {
+    useEffect(() => {
+        fetch("/sample_data.json")
+            .then((reponse) => reponse.json())
+            .then((data) => {
+                setLigne(data.lignes.find((l) => l.id === id) ?? null);
+            });
+    }, [id]);
+
+    if (ligne === undefined) {
+        return <p aria-busy="true">Chargement…</p>;
+    }
+
+    if (ligne === null) {
         return (
             <>
                 <h1>Ligne introuvable</h1>
