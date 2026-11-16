@@ -7,8 +7,6 @@
       element: a[href="/lignes"]
       pageChange: true
       waitForSelector: .grid
-    - name: Consulter les lignes
-      type: scroll
     - name: Choisir une ligne
       type: click
       element: a[href="/ligne/1"]
@@ -21,8 +19,6 @@
       element: a[href="/lignes"]
       pageChange: true
       waitForSelector: .grid
-    - name: Consulter les lignes
-      type: scroll
     - name: Choisir une autre ligne
       type: click
       element: a[href="/ligne/2"]
