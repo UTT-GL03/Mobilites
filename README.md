@@ -37,10 +37,9 @@ Après analyse de différents services similaires, comme [TCAT](tcat.fr), [Ile d
 
 
 ### Scénario 2 : "Être informé des perturbations du traffic"
-1. L'utilisateur se rend sur la page "perturbations" de l'application grâce à un bouton (donc sans passer par un moteur de recherche). Si nécessaire, il donne son consentement. Puis il consulte les différentes lignes de bus disponibles.
-2. Il choisit une ligne de bus et prends connaissance des perturbations sur la ligne
-3. Il revient à la page "perturbations" et consulte les différentes lignes de bus disponibles
-4. Il choisit une autre ligne de bus et prends connaissance des perturbations sur la ligne.
+1. L'utilisateur se rend sur la page "perturbations" de l'application grâce à un bouton (donc sans passer par un moteur de recherche). Si nécessaire, il donne son consentement. Puis il consulte les différentes perturbations du réseau.
+2. Il sélectionne les perturbations à venir et prends connaissance des perturbations sur le réseau
+3. Il retourne sur les perturbations en cours.
 
 ## Impact de l'exécution des scénarios auprès de différents services concurrents
 
@@ -182,7 +181,7 @@ Les pages des articles ont pour HTTP-URI `/horaires/{id}`.
 De même que précédemment, nous avons tenté d'implémenter cette page (cf. Fig. 4) conformément à ce que prévoyait la maquette.
 
 ![Prototype de la page d'un article](./docs/horaires_screenshot.png)
-__Fig.3__: Prototype de la page d'un article.
+__Fig.4__: Prototype de la page des horaires d'une ligne.
 
 Avec l'ajout de ce modèle de page et la mise en place de la navigation entre les deux modèles, il devient possible d'exécuter le scénario prioritaire complet et de mesurer son impact.
 
@@ -198,6 +197,28 @@ __Tab.5__: Évaluation de l'impact du scénario "Consulter les horaires d'une li
 Ces estimations bien qu'artificiellement basses (puisque les données sont chargées de manière statique) sont tout de même à comparer avec [celles des services concurrents](https://htmlpreview.github.io/?https://raw.githubusercontent.com/UTT-GL03/Mobilites/main/benchmark/tcat.md) vues précédemment.
 
 Si nous arrivons à maintenir les émissions en dessous de 1,2 g par page pour notre produit minimum viable, nous pouvons donc espérer proposer une alternative environ 2 fois moins impactante que les services existants (en incluant pourtant la participation au cycle de vie du terminal).
+
+### Pages des perturbations
+
+Les pages des articles ont pour HTTP-URI `/perturbations/`.
+De même que précédemment, nous avons tenté d'implémenter cette page (cf. Fig. 5) conformément à ce que prévoyait la maquette.
+
+![Prototype de la page d'un article](./docs/pertrubations_screenshot.png)
+__Fig.4__: Prototype de la page des horaires d'une ligne.
+
+Avec l'ajout de ce modèle de page et la mise en place de la navigation entre les deux modèles, il devient possible d'exécuter le second scénario prioritaire complet et de mesurer son impact.
+
+|   | EcoIndex| GES (gCO2e) | Taille du DOM | Requêtes | Taille de la page (ko)
+|---|--------:|------------:|--------------:|---------:|---------------------:
+| 1. Consulter les perturbations 					   | 90 A 🟦 | 1,2 | 136 | 4 | 106
+| 2. Consulter les perturbations à venir 			   | 90 A 🟦 | 1,2 |  127 | 4 | 106
+| 3. Reconsulter les perturbations en cours	| 90 A 🟦 | 1,2 | 136 | 4 | 106
+
+__Tab.6__: Évaluation de l'impact du scénario "Consulter les perturbations du réseau" dans le prototype v1.0.0.
+
+Ces estimations bien qu'artificiellement basses (puisque les données sont chargées de manière statique) sont tout de même à comparer avec [celles des services concurrents](https://htmlpreview.github.io/?https://raw.githubusercontent.com/UTT-GL03/Mobilites/main/benchmark/tcat.md) vues précédemment.
+
+Si nous arrivons à maintenir les émissions en dessous de 1,3 g par page pour notre produit minimum viable, nous pouvons donc espérer proposer une alternative environ 2 fois moins impactante que les services existants (en incluant pourtant la participation au cycle de vie du terminal).
 
 ### Étape de prototypage : Données statiques chargées de manière dynamique
 
