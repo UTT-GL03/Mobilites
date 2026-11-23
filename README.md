@@ -227,6 +227,33 @@ Ce comportement, plus réaliste, n'a pour effet qu'une requête supplémentaire 
 
 Concernant l'évaluation de l'impact environnemental du scénario, par rapport au tableau précédent (cf. Tab.5), à l'exception du nombre de requêtes qui est incrémenté de 1, les résultats sont strictement identiques.
 
+## Mesures de la consommation énergétique lors du passage à l'échelle
+
+Maintenant que notre prototype est réaliste en termes de nombre de requêtes, nous pouvons simuler les effets du "passage à l'échelle". 
+
+Dans le cas qui nous occupe de la mobilité et dans le cadre des fonctionnalités envisagées (consultation d'horaires), l'augmentation de la quantité des données à traiter ne viendra pas de l'augmentation du nombre de lignes. En revanche, l'évolution de l'EcoIndex se fera probablement sur l'augmentation des perturbations du trafic.
+
+L'augmentation du volume de données est stagnante, la création ou la suppression de lignes de bus interviennent 1 fois par an, bien que ces changements provoquent des modifications dans le volume d'horaires, l'évolution reste marginale puisque ces créations ou suppressions restent peu nombreuses.
+Cependant, la majeure partie de l'évolution des données se fait dans les perturbations du trafic. Cette évolution est elle aussi stagnante sur le long terme puisque si la création de perturbations reste imprévisible, chaque perturbation finira par être supprimée lorsqu'elle prendra fin.
+
+### Évolution de l'EcoIndex lors du passage à l'échelle
+
+Produites désormais de manière automatique lors de l'intégration continue, les mesures nécessaires à la production de l'EcoIndex, [avant](https://github.com/UTT-GL03/Mobilites/actions/runs/43883380327) et [après](https://github.com/UTT-GL03/Mobilites/actions/runs/43909317601/artifacts/14246454060) la simulation du passage à l'échelle retraduisent bien (cf. Tab.7) l'augmentation du poids des téléchargements, mais aussi de l'augmentation du nombre d'éléments de la page des titres.
+
+
+|   | EcoIndex| GES (gCO2e) | Taille du DOM | Requêtes | Taille de la page (ko)
+|---|--------:|------------:|--------------:|---------:|---------------------:
+| 1. Consulter les lignes de bus 					   | <del>88 A 🟦</del><br/>33 E 🟥 | <del>1,2</del><br/>2,3 | <del>79</del><br/>4361 | 1 | <del>20</del><br/>3923
+| 2. Choisir une ligne et consulter ses horaires 			   | <del>89 A 🟦</del><br/>75 B 🟩 | <del>1,2</del><br/>1,5 | <del>70</del><br/>75 | 1 | <del>20</del><br/>3923
+| 3. Revenir aux lignes de bus et les consulter	| <del>88 A 🟦</del><br/>33 E 🟥 | <del>1,2</del><br/>2,3 | <del>79</del><br/>4361 | 1 | <del>20</del><br/>3923
+| 4. Choisir et consulter les horaires d'une autre ligne 		| <del>88 A 🟦</del><br/>77 A 🟦 |  <del>1,2</del><br/>1,5 | <del>80</del><br/>60 | 1 | <del>20</del><br/>3923
+
+__Tab.6__: Effet du passage à l'échelle sur l'impact du scénario "Consulter les horaires d'une ligne de bus" dans le prototype v1.0.1.
+
+On pourrait s'étonner que la baisse de l'EcoIndex soit beaucoup plus forte pour la page des lignes de bus que pour la page des horaires d'une ligne alors que l'augmentation du poids des téléchargements est analogue.
+Ceci s'explique par le fait que l'EcoIndex vise à évaluer un impact global, incluant une part de la fabrication et de la fin de vie des terminaux, et que cette part augmente avec le nombre d'éléments de la page.
+Pour évaluer plus précisément l'impact de la consultation elle-même nous utiliserons un autre outil de mesure : GreenFrame.
+
 ### Automatisation 
 À la racine du projet exécuter la commande suivante pour générer le rapport d'impact écologique du premier scénario "Consulter les horaires: de passage d'une ligne de bus" :
 ```bash
@@ -237,3 +264,4 @@ Pour le second scénario "Être informé des perturbations du traffic", exécute
 ```bash
 greenit analyse scenarios/consulter_perturbations.yml perturbations.html --headless false
 ```
+
