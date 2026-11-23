@@ -1,0 +1,9 @@
+baseURL: http://localhost
+projectName: Mobilites
+scenarios:
+  - name: Consulter les horaires de passage d'une ligne de bus
+    path: ./scenarios/consult_horaires.js
+  - name: Être informé des perturbations du trafic
+    path: ./scenarios/consult_perturbations.js
+containers:
+  - mobilites-static_hosting-1

@@ -203,8 +203,8 @@ Si nous arrivons à maintenir les émissions en dessous de 1,2 g par page pour n
 Les pages des articles ont pour HTTP-URI `/perturbations/`.
 De même que précédemment, nous avons tenté d'implémenter cette page (cf. Fig. 5) conformément à ce que prévoyait la maquette.
 
-![Prototype de la page d'un article](./docs/perturbations_screenshot.png)
-__Fig.4__: Prototype de la page des horaires d'une ligne.
+![Prototype de la page des perturbations](./docs/perturbations_screenshot.png)
+__Fig.5__: Prototype de la page des perturbations.
 
 Avec l'ajout de ce modèle de page et la mise en place de la navigation entre les deux modèles, il devient possible d'exécuter le second scénario prioritaire complet et de mesurer son impact.
 
@@ -227,6 +227,17 @@ Ce comportement, plus réaliste, n'a pour effet qu'une requête supplémentaire 
 
 Concernant l'évaluation de l'impact environnemental du scénario, par rapport au tableau précédent (cf. Tab.5), à l'exception du nombre de requêtes qui est incrémenté de 1, les résultats sont strictement identiques.
 
+### Automatisation
+À la racine du projet exécuter la commande suivante pour générer le rapport d'impact écologique du premier scénario "Consulter les horaires: de passage d'une ligne de bus" :
+```bash
+ greenit analyse scenarios/consulter_horaires.yml horaires.html --headless false 
+```
+
+Pour le second scénario "Être informé des perturbations du traffic", exécuter la commande suivante :
+```bash
+greenit analyse scenarios/consulter_perturbations.yml perturbations.html --headless false
+```
+
 ## Mesures de la consommation énergétique lors du passage à l'échelle
 
 Maintenant que notre prototype est réaliste en termes de nombre de requêtes, nous pouvons simuler les effets du "passage à l'échelle". 
@@ -248,20 +259,47 @@ Produites désormais de manière automatique lors de l'intégration continue, le
 | 3. Revenir aux lignes de bus et les consulter	| <del>88 A 🟦</del><br/>33 E 🟥 | <del>1,2</del><br/>2,3 | <del>79</del><br/>4361 | 1 | <del>20</del><br/>3923
 | 4. Choisir et consulter les horaires d'une autre ligne 		| <del>88 A 🟦</del><br/>77 A 🟦 |  <del>1,2</del><br/>1,5 | <del>80</del><br/>60 | 1 | <del>20</del><br/>3923
 
-__Tab.6__: Effet du passage à l'échelle sur l'impact du scénario "Consulter les horaires d'une ligne de bus" dans le prototype v1.0.1.
+__Tab.7__: Effet du passage à l'échelle sur l'impact du scénario "Consulter les horaires d'une ligne de bus" dans le prototype v1.0.1.
 
 On pourrait s'étonner que la baisse de l'EcoIndex soit beaucoup plus forte pour la page des lignes de bus que pour la page des horaires d'une ligne alors que l'augmentation du poids des téléchargements est analogue.
 Ceci s'explique par le fait que l'EcoIndex vise à évaluer un impact global, incluant une part de la fabrication et de la fin de vie des terminaux, et que cette part augmente avec le nombre d'éléments de la page.
 Pour évaluer plus précisément l'impact de la consultation elle-même nous utiliserons un autre outil de mesure : GreenFrame.
 
-### Automatisation 
-À la racine du projet exécuter la commande suivante pour générer le rapport d'impact écologique du premier scénario "Consulter les horaires: de passage d'une ligne de bus" :
-```bash
- greenit analyse scenarios/consulter_horaires.yml horaires.html --headless false 
-```
+### Mesure de la consommation énergétique liée à la consultation
 
-Pour le second scénario "Être informé des perturbations du traffic", exécuter la commande suivante :
-```bash
-greenit analyse scenarios/consulter_perturbations.yml perturbations.html --headless false
-```
+Le logiciel GreenFrame est capable d'estimer, pour les différents composants de l'architecture, la consommation énergétique :
+
+- du CPU (à partir du temps de calcul),
+- de la mémoire vive (à partir de la taille des données mémorisées),
+- du disque (à partir de la taille des données lues et écrites),
+- du réseau (à partir de la taille des données reçues et envoyées),
+- pour le navigateur uniquement, de l'écran (à partir du temps d'exécution du scénario).
+
+| HORAIRES    | cpu (Wh)   | mem (Wh)   | disk (Wh) | network (Wh)       | screen (Wh)        | total (Wh) |
+|-------------| ---------- | ---------- | --------- | ------------------ | ------------------ | ---------- |
+| Navigateur  | 0.0035     | 0.000069   | 0.0       | <mark>0.024</mark> | <mark>0.052</mark> | 0.081      |
+| Serveur Web | 0.000014   | 0.0000060  | 0.0       | <mark>0.025</mark> | 0.0                | 0.025      |
+
+| PERTURBATIONS | cpu (Wh)   | mem (Wh)   | disk (Wh) | network (Wh)       | screen (Wh)        | total (Wh) |
+|---------------| ---------- | ---------- | --------- | ------------------ | ------------------ | ---------- |
+| Navigateur    | 0.010      | 0.00017    | 0.0       | <mark>0.025</mark> | <mark>0.046</mark> | 0.081      |
+| Serveur Web   | 0.000011   | 0.0000052  | 0.0       | <mark>0.025</mark> | 0.0                | 0.025      |
+
+__Tab.8__: Estimation de la consommation énergétique, après le passage à l'échelle, des scénarios "Consulter les horaires de passage d'une ligne de bus" (premier tableau) et "Être informé des perturbations du trafic" (second tableau).
+
+Par rapport à ce que pouvait laisser penser l'EcoIndex (cf. Tab.7) qui pénalise fortement les pages affichant un grand nombre 
+d'éléments comme la page des lignes de bus, les résultats (cf. Tab.8) indiquent que la consommation due à la consultation 
+des perturbations (avec ses milliers de perturbations affichées) est équivalente à celle de la consultation des horaires 
+de deux lignes (environ 0,105 Wh et 47 mg eq. CO2 par scénario). Autrement dit, l'affichage en lui même de ces données en 
+grand nombre est négligeable par rapport à la transmission de ces données sur le réseau : le temps de calcul du navigateur 
+est bien trois fois plus élevé pour les perturbations, mais il reste négligeable. Dans les deux cas, c'est en effet 
+l'intégralité de l'échantillon de données (environ 4 Mo) qui est téléchargée, quelle que soit la page consultée.
+
+Par contre, l'affichage de ces données a bien un impact indirect : en augmentant le temps de lecture, il a un 
+effet déterminant sur le temps d'éclairage de l'écran.
+
+De fait, les trois éléments ayant le plus d'impact (le reste étant négligeable), sont ici :
+- l'écran du client (environ la moitié de la consommation totale),
+- le réseau du client,
+- le réseau du serveur.
 
